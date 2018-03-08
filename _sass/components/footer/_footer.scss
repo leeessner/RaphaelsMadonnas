@@ -1,0 +1,93 @@
+.site-footer{
+  @extend %center;
+  max-width: $max-width;
+  text-align: center;
+  padding: $space-sm;
+
+  a{
+    @extend .link;
+  }
+}
+
+.footer-description{
+  max-width: $max-width-sm;
+  @extend %center;
+  p{
+    color: $brown;
+    font-style: italic;
+    font-size: $font-size-sm;
+    margin: 0;
+  }
+}
+
+.footer-contact,
+.footer-links{
+  color: $brown;
+  span{
+    font-style: italic;
+  }
+  span,
+  .email{
+    font-size: $font-size-xsm;
+  }
+}
+
+.footer-verse{
+  margin-top: $space-md;
+  .bible-verse{
+    font-family: $font-family-gothic;
+    color: $tan;
+    font-size: $font-size-lg;
+    line-height: 1.2;
+    letter-spacing: 0.05em;
+    margin: 0;
+  }
+  .verse-reference{
+    font-family: $font-family-serif;
+    font-style: italic;
+    font-size: $font-size-sm;
+    display: block;
+  }
+}
+
+.footer-links{
+  margin-top: $space-md;
+  span,
+  a{
+    font-size: $font-size-xsm;
+  }
+  ul{
+    margin: 0px;
+    display: inline-block;
+    padding: 0px;
+  }
+  li{
+    list-style: georgian;
+    display: inline-block;
+    padding: 0 $space-xsm;
+  }
+}
+
+.github-link{
+  display: inline-block;
+  margin-top: $space-md;
+  svg{
+    width: $space-lg;
+    path{
+      fill: $light-gold;
+    }
+  }
+
+  &:hover,
+  &:focus{
+    svg path{
+      fill: $gold;
+    }
+  }
+
+  &:active{
+    svg path{
+      fill: $dark-gold;
+    }
+  }
+}

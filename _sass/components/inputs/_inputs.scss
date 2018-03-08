@@ -1,0 +1,8 @@
+input{
+  border: 2px solid $tan;
+
+  &:focus{
+    outline: none;
+    border: 2px solid $gold;
+  }
+}

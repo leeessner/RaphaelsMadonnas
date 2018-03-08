@@ -1,0 +1,35 @@
+---
+layout: page
+title: Comics by Category
+permalink: /archive/
+---
+<div class="category-list">
+  {% for category in site.categories %}
+  <a href="#{{ category[0] | slugify }}" class="category-list-item">{{ category[0] }}</a>
+  {% endfor %}
+  {% for tag in site.tags %}
+  <a href="#{{ tag[0] | slugify }}" class="category-list-item">{{ tag[0] }}</a>
+  {% endfor %}
+</div>
+<div class="category-sections-wrapper">
+  {% for category in site.categories %}
+  <div class="category-section">
+    <h3 id="{{ category[0] | slugify }}" class="category-section-header">{{ category[0] }}</h3>
+    <ul class="category-post-list">
+      {% for post in category[1] reversed %}
+      <li><span class="post-number">#{{post.number}}</span> <a class="category-post-list-item" href="{{ post.url | prepend:site.baseurl}}">{{post.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+  {% for tag in site.tags %}
+  <div class="category-section">
+    <h3 id="{{ tag[0] | slugify }}" class="category-section-header">{{ tag[0] }}</h3>
+    <ul class="category-post-list">
+      {% for post in tag[1] reversed %}
+      <li><span class="post-number">#{{post.number}}</span> <a class="category-post-list-item" href="{{ post.url | prepend:site.baseurl}}">{{post.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
+  {% endfor %}
+</div>

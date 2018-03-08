@@ -1,0 +1,21 @@
+a{
+  text-decoration: none;
+
+  &:focus{
+    outline: none;
+  }
+}
+
+.link {
+  @include transition(all ease $default-transition-speed);
+  color: $gold;
+  font-weight: bold;
+  &:hover,
+  &:focus{
+    color: $dark-gold;
+    text-decoration: underline;
+  }
+  &:active{
+    color: $brown;
+  }
+}

@@ -1,0 +1,27 @@
+.pill{
+  @include transition(all ease $default-transition-speed);
+  display: inline-block;
+  text-transform: capitalize;
+  color: $light-gold;
+  border: 2px solid $light-gold;
+  padding: $space-xsm/2 $space-sm;
+  border-radius: 1rem;
+  margin: $space-xsm;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: $font-size-sm;
+
+  &:hover,
+  &:focus{
+    text-decoration: none;
+    background-color: $light-gold;
+    color: $white;
+    border-color: $light-gold;
+  }
+  &:active{
+    text-decoration: none;
+    border-color: $gold;
+    background-color: $gold;
+    color: $white;
+  }
+}

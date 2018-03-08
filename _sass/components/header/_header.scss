@@ -1,0 +1,104 @@
+.site-header{
+  @extend %center;
+  max-width: 40rem;
+  margin-top: $space-xlg;
+  position: relative;
+  text-align: center;
+  padding-left: $space-reg;
+  padding-right: $space-reg;
+}
+
+.site-title-link{
+  @include transition(all ease 300ms);
+
+  .svg-main-fill{
+    fill: $light-tan;
+  }
+
+  .svg-shadow-fill{
+    fill: $brown;
+    opacity: 0.4;
+  }
+
+  .svg-stroke{
+    fill: none;
+    stroke: $brown;
+    stroke-linecap: round;
+    stroke-miterlimit: 10;
+    stroke-width: 4px;
+  }
+
+  .svg-site-title{
+    font-family: $font-family-gothic;
+    font-size: $font-size-xxxlg;
+    text-anchor: middle;
+    fill: $brown;
+  }
+
+  .svg-site-title-shadow{
+    font-family: $font-family-gothic;
+    font-size: $font-size-xxxlg;
+    text-anchor: middle;
+    fill: $tan;
+  }
+
+  &:hover,
+  &:focus{
+    .svg-main-fill{
+      fill: $light-tan;
+    }
+
+    .svg-shadow-fill{
+      fill: $gold;
+    }
+
+    .svg-stroke{
+      stroke: $gold;
+    }
+
+    .svg-site-title{
+      fill: $gold;
+    }
+  }
+  &:active{
+    .svg-main-fill{
+      fill: $light-tan;
+    }
+
+    .svg-shadow-fill{
+      fill: $dark-gold;
+    }
+
+    .svg-stroke{
+      stroke: $dark-gold;
+    }
+
+    .svg-site-title{
+      fill: $dark-gold;
+    }
+  }
+}
+
+.site-nav{
+  margin-top: $space-sm;
+}
+
+.site-nav-link{
+  font-family: $font-family-gothic;
+  font-size: $font-size-lg;
+  background-color: transparent;
+  border-radius: .5rem;
+  color: sienna;
+  padding: $space-sm $space-md;
+
+  &:hover,
+  &:focus{
+    background-color: antiquewhite;
+    color: saddlebrown;
+  }
+
+  &:active{
+    background-color: rgba(250, 235, 215, .75);
+    color: sienna;
+  }
+}

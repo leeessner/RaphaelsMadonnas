@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+  {% include header.html %}
+
+  <!-- {% unless page.permalink == "/archive/" %}
+  <div class="archive-link">
+    <a href="{{ site.baseurl }}/archive/">Browse Comics by Category</a>
+  </div>
+  {% endunless %}
+  {% if page.permalink == "/archive/" %}
+  <div class="archive-link">
+    <a href="{{site.posts[0].url | prepend:site.baseurl}}">Back to Comics</a>
+  </div>
+  {% endif %} -->
+
+  <div class="container">
+        <!-- {{ content }} -->
+  </div>
+  {% include footer.html %}
+
+  {% include scripts.html %}
+  </body>
+
+</html>

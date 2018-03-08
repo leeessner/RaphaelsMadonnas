@@ -1,0 +1,55 @@
+h1,
+h2,
+h3{
+  font-family: $font-family-gothic;
+}
+
+h1{
+  font-size: $font-size-xxxlg;
+}
+
+h2{
+  font-size: $font-size-xxlg;
+  line-height: 1.2;
+}
+
+h3{
+  font-size: $font-size-xxlg;
+  line-height: 1.2;
+}
+
+h4,
+h5,
+h6{
+  font-family: $font-family-serif;
+}
+
+body {
+  font-family: $font-family-serif;
+  font-size: $font-size-reg;
+  line-height: 1.8;
+  color: $dark-brown;
+}
+
+
+@media (max-width: #{$media-md}){
+  h1{
+    font-size: $font-size-xxlg;
+  }
+
+  h2{
+    font-size: $font-size-lg;
+  }
+
+  h3{
+    font-size: $font-size-xlg;
+  }
+
+  body,
+  span,
+  p,
+  a {
+    font-size: $font-size-sm;
+    line-height: 1.6;
+  }
+}

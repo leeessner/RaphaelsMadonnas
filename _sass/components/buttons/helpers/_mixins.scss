@@ -1,0 +1,32 @@
+@mixin button-reset(){
+  @include appearance(none);
+  @include transition($default-transition-speed);
+  background-color: transparent;
+  border: 0;
+  padding: 0;
+  margin: 0;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+
+@mixin button-style-shadow($bg-color: false, $color: false, $include-shadow: true, $shadow-color: transparent){
+  @if $color != false { color: $color; }
+  @if $bg-color != false { background-color: $bg-color; }
+  @if $include-shadow != true { border-bottom: none;}
+  @if $include-shadow {
+    @if $shadow-color != false { border-bottom: 4px solid $shadow-color; }
+    @if $shadow-color == false { border-bottom: 4px solid transparent; }
+  }
+}
+
+@mixin button-style($bg-color: false, $color: false, $include-border: true, $border-color: transparent){
+  @if $color != false { color: $color; }
+  @if $bg-color != false { background-color: $bg-color; }
+  @if $include-border {
+    @if $border-color != false { border: 1px solid $border-color; }
+    @if $border-color == false { border: 1px solid transparent; }
+  }
+}

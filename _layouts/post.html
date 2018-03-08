@@ -1,0 +1,69 @@
+---
+layout: default
+---
+{% include post-nav.html %}
+
+<article class="post card" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+    <p class="post-date">
+      <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {% assign d = page.date | date: "%-d" %}
+        {% assign m = page.date | date: "%-m" %}
+        The {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %} day of the {% case m %}{% when '1' or '21' or '31' %}{{ m }}st{% when '2' or '22' %}{{ m }}nd{% when '3' or '23' %}{{ m }}rd{% else %}{{ m }}th{% endcase %} month in the year of our Lord {{ page.date | date: "%Y" }}
+      </time>
+    </p>
+  </header>
+
+  <div class="post-content" itemprop="articleBody">
+    {% if page.original_image %}
+    <img class="post-image" src="{{site.baseurl}}/images/{{page.image_folder}}/{{page.original_image}}" alt="">
+    {% endif %}
+    <div class="comic">
+      <div class="comic-strip">
+        {% for item in page.images %}
+        {% if item.row_title %}<h3 class="comic-strip-row-title">{{item.row_title}}</h3>{% endif %}
+        <div class="comic-strip-frame {{item.frame_type}} {% if item.frame_tall %}frame-tall{% endif %}">
+          {% if item.frame_title %}<h3 class="comic-strip-frame-title">{{item.frame_title}}</h3>{% endif %}
+          <img alt="{{item.alt}}" src="{{site.baseurl}}/images/{{page.image_folder}}/{{item.url}}"/>
+        </div>
+        {% endfor %}
+      </div>
+      <div class="comic-copyright">
+        <!-- <p>&copy; <span>{{page.date | date:'%Y'}} Karly Nelson</span></p> -->
+        <p>&copy; <span>Karly Nelson</span></p>
+      </div>
+    </div>
+  </div>
+
+</article>
+
+<div class="post-share">
+  <div class="share-permalink">
+    <p class="post-share-title">Permanent link to this comic</p>
+    <input class="post-share-url" id="comicLink" value="{{page.permalink | prepend: site.baseurl | prepend: site.url}}">
+  </div>
+
+  <div class="share-image">
+    <p class="post-share-title">Image URL</p>
+    <input class="post-share-url" id="imageURL" value="{{site.baseurl | prepend: site.url}}/images/{{page.image_folder}}/{{page.original_image}}">
+  </div>
+
+</div>
+
+{% include post-nav.html %}
+
+<div class="post-description">
+  <div class="post-description-text">
+    {{ content }}
+  </div>
+  <div class="post-tags">
+    {% for category in page.categories %}
+    <a href="{{ site.baseurl }}/archive/#{{ category | slugify }}" class="pill">{{ category }}</a>
+    {% endfor %}
+    {% for tag in page.tags %}
+    <a href="{{ site.baseurl }}/archive/#{{ tag | slugify }}" class="pill">{{ tag }}</a>
+    {% endfor %}
+  </div>
+</div>

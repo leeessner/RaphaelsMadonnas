@@ -1,0 +1,46 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.5.12/clipboard.min.js"></script>
+<script>
+
+  var clipboard = new Clipboard('.btn-copy');
+
+  clipboard.on('success', function(e) {
+      console.info('Action:', e.action);
+      console.info('Text:', e.text);
+      console.info('Trigger:', e.trigger);
+
+      // var div = document.createElement("div");
+      // div.style.width = "100px";
+      // div.style.height = "100px";
+      // div.style.background = "red";
+      // div.style.color = "white";
+      // div.innerHTML = "Hello";
+      //
+      // document.body.appendChild(div);
+
+      e.clearSelection();
+  });
+
+  clipboard.on('error', function(e) {
+      console.error('Action:', e.action);
+      console.error('Trigger:', e.trigger);
+  });
+
+
+  // var btnCopy = document.getElementsByClassName( 'btn-copy' ),
+  // var clipboard = new Clipboard('.btn-copy'),
+  //
+  // for (var i = 0; i < btnCopy.length; i++){
+  //     btnCopy[i].addEventListener( clickevent, function( ev ) {
+  //       if (this.classList.contains('bad')) {
+  //         // The box that we clicked has a class of bad so let's remove it and add the good class
+  //        this.classList.remove('bad');
+  //        this.classList.add('good');
+  //       } else {
+  //         // The user obviously can't follow instructions so let's alert them of what is supposed to happen next
+  //         alert("You can proceed!");
+  //       }
+  //     });
+  // }
+
+
+</script>

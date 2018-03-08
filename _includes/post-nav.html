@@ -1,0 +1,25 @@
+<div class="post-nav">
+  {% if site.posts.last.permalink == page.permalink %}
+  <button class="btn" disabled="true">&alpha;</button>
+  {% else %}
+  <a class="btn" href="{{site.posts.last.url | prepend:site.baseurl}}">&alpha;</a>
+  {% endif %}
+
+  {% if page.previous.url %}
+  <a class="btn" href="{{page.previous.url | prepend:site.baseurl}}">Previous</a>
+  {% else %}
+  <button class="btn" disabled="true">Previous</button>
+  {% endif %}
+
+  {% if page.next.url %}
+  <a class="btn" href="{{page.next.url | prepend:site.baseurl}}">Next</a>
+  {% else %}
+  <button class="btn" disabled="true">Next</button>
+  {% endif %}
+
+  {% if site.posts.first.permalink == page.permalink %}
+  <button class="btn" disabled="true">&Omega;</button>
+  {% else %}
+  <a class="btn" href="{{site.posts.first.url | prepend:site.baseurl}}">&Omega;</a>
+  {% endif %}
+</div>

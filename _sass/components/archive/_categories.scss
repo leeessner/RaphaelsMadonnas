@@ -1,0 +1,66 @@
+.category-list{
+  text-align: center;
+  margin: $space-lg 0;
+}
+
+.category-list-item{
+  @extend .pill;
+}
+
+.category-sections-wrapper{
+  @include display(flex);
+  @include flex-wrap(wrap);
+}
+
+.category-section{
+  @include flex(1 0 50%);
+  padding: $space-md 0;
+}
+
+.category-section-header{
+  text-transform: capitalize;
+  color: $light-gold;
+  text-shadow: 1px 1px 1px $gold;
+}
+
+.category-post-list {
+  padding-left: $space-sm;
+
+  li{
+    list-style-type: none;
+    position: relative;
+    list-style-position: inside;
+    margin-bottom: $space-sm;
+  }
+
+  .post-number{
+    color: $gold;
+    font-weight: bold;
+    text-decoration: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+}
+
+
+.category-post-list-item{
+  @include transition(all ease $default-transition-speed);
+  color: $dark-brown;
+  display: inline-block;
+  padding-left: $space-xlg;
+  &:hover,
+  &:focus{
+    color: $gold;
+    text-decoration: underline;
+  }
+  &:active{
+    color: $dark-gold;
+  }
+}
+
+@media (max-width:#{$media-md}){
+  .category-section{
+    @include flex(1 0 100%);
+  }
+}
