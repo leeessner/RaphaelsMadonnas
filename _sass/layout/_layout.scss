@@ -1,11 +1,5 @@
 @import "helpers/index";
 
-body{
-  background-color: $light-tan;
-}
-
 .container{
   @extend %center;
-  max-width: $max-width;
-  padding: $space-sm;
 }

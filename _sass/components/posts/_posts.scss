@@ -6,26 +6,6 @@
   }
 }
 
-.archive-link{
-  text-align: center;
-  position: relative;
-  top: -0.5rem;
-  a {
-    @include transition(all ease $default-transition-speed);
-    font-family: $font-family-gothic;
-    color: $gold;
-    font-size: $font-size-md;
-    &:hover,
-    &:focus{
-      color: $dark-gold;
-      text-decoration: underline;
-    }
-    &:active{
-      color: $brown;
-    }
-  }
-}
-
 .post-nav{
   @extend %center;
   text-align: center;

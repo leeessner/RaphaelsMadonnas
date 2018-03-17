@@ -29,14 +29,14 @@
   }
 
   .svg-site-title{
-    font-family: $font-family-gothic;
+    font-family: $font-family-headlines;
     font-size: $font-size-xxxlg;
     text-anchor: middle;
     fill: $brown;
   }
 
   .svg-site-title-shadow{
-    font-family: $font-family-gothic;
+    font-family: $font-family-headlines;
     font-size: $font-size-xxxlg;
     text-anchor: middle;
     fill: $tan;
@@ -84,7 +84,7 @@
 }
 
 .site-nav-link{
-  font-family: $font-family-gothic;
+  font-family: $font-family-headlines;
   font-size: $font-size-lg;
   background-color: transparent;
   border-radius: .5rem;

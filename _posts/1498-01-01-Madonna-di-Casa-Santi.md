@@ -20,18 +20,6 @@ images:
   - url: 1.jpg
     alt: this is the alt text
     frame_type: "frame-1-2"
-  - url: 2.jpg
-    alt: this is the alt text
-    frame_type: "frame-1-2"
-  - url: 3.jpg
-    alt: this is the alt text
-    frame_type: "frame-1-1"
-  - url: 4.jpg
-    alt: this is the alt text
-    frame_type: "frame-1-1"
-  - url: 5.jpg
-    alt: this is the alt text
-    frame_type: "frame-1-1"
 ---
 
 Song of Solomon is pretty ridiculous, but it has some nuggets: "For love is strong as death, jealousy is fierce as the grave. Its flashes are flashes of fire, the very flame of the Lord. Many waters cannot quench love, neither can floods drown it."

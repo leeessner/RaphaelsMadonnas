@@ -1,107 +1,17 @@
 ---
 layout: default
 ---
-<!-- <div class="archive-link">
-  <a href="{{ site.baseurl }}/archive/">Search by Category</a>
-</div> -->
-
-<!-- <div class="post-nav">
-  {% if site.posts.last.url == site.posts[0].url %}
-  <button class="btn" disabled="true">&alpha;</button>
-  {% else %}
-  <a class="btn" href="{{site.posts.last.url | prepend:site.baseurl}}">&alpha;</a>
-  {% endif %}
-
-  {% if site.posts[1].url %}
-  <a class="btn" href="{{site.posts[1].url | prepend:site.baseurl}}">Previous</a>
-  {% else %}
-  <button class="btn" disabled="true">Previous</button>
-  {% endif %}
-
-  <button class="btn" disabled="true">Next</button>
-
-  <button class="btn" disabled="true">&Omega;</button>
-</div> -->
 
 
-{% for post in site.posts limit:1 %}
-
-<article class="post card" itemscope itemtype="http://schema.org/BlogPosting">
-
-  <header class="post-header">
-    <h2 class="post-title" itemprop="name headline">{{ post.title }}</h2>
-    <p class="post-date">
-      <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-        {% assign d = post.date | date: "%-d" %}
-        {% assign m = post.date | date: "%-m" %}
-        The {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %} day of the {% case m %}{% when '1' or '21' or '31' %}{{ m }}st{% when '2' or '22' %}{{ m }}nd{% when '3' or '23' %}{{ m }}rd{% else %}{{ m }}th{% endcase %} month in the year of our Lord {{ post.date | date: "%Y" }}
-      </time>
-    </p>
-  </header>
-
-  <div class="post-content" itemprop="articleBody">
-    <div class="comic">
-      <div class="comic-strip">
-        {% for item in post.images %}
-        {% if item.row_title %}<h3 class="comic-strip-row-title">{{item.row_title}}</h3>{% endif %}
-        <div class="comic-strip-frame {{item.frame_type}} {% if item.frame_tall %}frame-tall{% endif %}">
-          {% if item.frame_title %}<h3 class="comic-strip-frame-title">{{item.frame_title}}</h3>{% endif %}
-          <img alt="{{item.alt}}" src="{{site.baseurl}}/images/{{post.image_folder}}/{{item.url}}"/>
-        </div>
-        {% endfor %}
-      </div>
-      <div class="comic-copyright">
-        <!-- <p>&copy; <span>{{page.date | date:'%Y'}} Karly Nelson</span></p> -->
-        <p>&copy; <span>{{page.date | date:'%Y'}} Karly Nelson</span></p>
-      </div>
-    </div>
-  </div>
-
+<article class="post" >
+  <section class="grid-container">
+    <ul class="flex-container wrap">
+      {% for post in site.posts %}
+      <li class="flex-item">
+        <img src="{{site.baseurl}}/images/{{post.image_folder}}/{{post.original_image}}"/>
+        <p> {{ post.title }} </p>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
 </article>
-
-<div class="post-share">
-  <div class="share-permalink">
-    <p class="post-share-title">Permanent link to this comic</p>
-    <input class="post-share-url" id="comicLink" value="{{post.url | prepend: site.baseurl | prepend: site.url}}">
-  </div>
-
-  <div class="share-image">
-    <p class="post-share-title">Image URL</p>
-    <input class="post-share-url" id="imageURL" value="{{site.baseurl | prepend: site.url}}/images/{{post.image_folder}}/{{post.original_image}}">
-  </div>
-
-</div>
-
-<!-- <div class="post-nav">
-  {% if site.posts.last.url == site.posts[0].url %}
-  <button class="btn" disabled="true">&alpha;</button>
-  {% else %}
-  <a class="btn" href="{{site.posts.last.url | prepend:site.baseurl}}">&alpha;</a>
-  {% endif %}
-
-  {% if site.posts[1].url %}
-  <a class="btn" href="{{site.posts[1].url | prepend:site.baseurl}}">Previous</a>
-  {% else %}
-  <button class="btn" disabled="true">Previous</button>
-  {% endif %}
-
-  <button class="btn" disabled="true">Next</button>
-
-  <button class="btn" disabled="true">&Omega;</button>
-</div> -->
-
-<div class="post-description">
-  <div class="post-description-text">
-    {{ post.content }}
-  </div>
-  <!-- <div class="post-tags">
-    {% for category in post.categories %}
-    <a href="{{ site.baseurl }}/archive/#{{ category | slugify }}" class="pill">{{ category }}</a>
-    {% endfor %}
-    {% for tag in post.tags %}
-    <a href="{{ site.baseurl }}/archive/#{{ tag | slugify }}" class="pill">{{ tag }}</a>
-    {% endfor %}
-  </div> -->
-</div>
-
-{% endfor %}
