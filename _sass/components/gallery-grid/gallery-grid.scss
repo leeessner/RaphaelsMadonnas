@@ -1,5 +1,5 @@
 .grid-container {
-  background: #2a2a2a;
+  margin-bottom: 10rem;
 }
 
 .flex-container {
@@ -34,11 +34,46 @@
   margin: 0.5rem;
 }
 
+.flex-item img {
+  width: 100%;
+}
+
 .wrap    {
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
 }
 
-.flex-item img {
-  width: 100%;
+.gallery {
+  a {
+    li {
+      .year {
+        font-family: $font-family-sans;
+        color: $Urbino-base;
+        font-size: .6875rem;
+        margin: 0;
+      }
+      .Urbino, .Florence, .Rome {
+        font-family: $font-family-serif;
+        color: $charcoal-base;
+        font-size: $font-size-sm;
+        margin: 0;
+        transition: color .5s;
+      }
+        .Urbino:hover {
+          color: $Urbino-base;
+        }
+        .Florence:hover {
+          color: $Florence-base;
+        }
+        .Rome:hover {
+          color: $Rome-base;
+        }
+      img {
+        transition: box-shadow .5s;
+      }
+      img:hover {
+        box-shadow: 0 10px 10px -5px rgba(0,0,0,.8);
+      }
+    }
+  }
 }

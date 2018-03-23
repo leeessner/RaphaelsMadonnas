@@ -2,8 +2,9 @@
 layout: post
 title:  "Madonna di Casa Santi"
 date:   1498-01-01
+year: 1498
 number: 1
-categories: Urbino
+categories: [Urbino]
 tags: [dirtbags]
 permalink: /Madonna-di-Casa-Santi
 medium: Fresco
@@ -14,12 +15,13 @@ height_in: 38.2
 Location: Casa Santi
 City: Urbino
 Country: Italy
-image_folder: 1498
+image_folder: img_primary
 original_image: 1498_Madonna-di-Casa-Santi.jpg
+image_folder_gallery: img_gallery
+gallery_image: gallery_1498_Madonna-di-Casa-Santi.jpg
 images:
-  - url: 1.jpg
+  - url: gallery_1498_Madonna-di-Casa-Santi.jpg
     alt: this is the alt text
-    frame_type: "frame-1-2"
 ---
 
 Song of Solomon is pretty ridiculous, but it has some nuggets: "For love is strong as death, jealousy is fierce as the grave. Its flashes are flashes of fire, the very flame of the Lord. Many waters cannot quench love, neither can floods drown it."

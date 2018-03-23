@@ -5,12 +5,15 @@ layout: default
 
 <article class="post" >
   <section class="grid-container">
-    <ul class="flex-container wrap">
+    <ul class="flex-container wrap gallery">
       {% for post in site.posts %}
-      <li class="flex-item">
-        <img src="{{site.baseurl}}/images/{{post.image_folder}}/{{post.original_image}}"/>
-        <p> {{ post.title }} </p>
-      </li>
+      <a href="{{site.posts.last.url | prepend:site.baseurl}}">
+        <li class="flex-item">
+          <img src="{{site.baseurl}}/images/{{post.image_folder_gallery}}/{{post.gallery_image}}"/>
+          <p class="year"> {{ post.year }} </p>
+          <p class="{{ post.categories }}"> {{ post.title }} </p>
+        </li>
+      </a>
       {% endfor %}
     </ul>
   </section>

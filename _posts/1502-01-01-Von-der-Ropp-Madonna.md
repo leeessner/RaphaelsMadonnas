@@ -2,9 +2,10 @@
 layout: post
 title:  "Von der Ropp Madonna"
 alternate_title: Madonna and Christ with St. Jerome and St. Francis
-date:   1501-01-01
+date:   1502-01-01
+year: 1502
 number: 2
-categories: Urbino
+categories: [Urbino]
 tags: [dirtbags]
 permalink: /Von-der-Ropp-Madonna
 medium: Oil on Wood
@@ -15,12 +16,13 @@ height_in: 11.4
 Location: Staatliche Museen
 City: Berlin
 Country: Germany
-image_folder: 1501
-original_image: 1501_Von-der-Ropp-Madonna.jpg
+image_folder: img_primary
+original_image: 1502_Von-der-Ropp-Madonna.jpg
+image_folder_gallery: img_gallery
+gallery_image: gallery_1502_Von-der-Ropp-Madonna.jpg
 images:
-  - url: 1.jpg
+  - url: ../img_gallery/gallery_1502_Von-der-Ropp-Madonna.jpg
     alt: this is the alt text
-    frame_type: "frame-1-2"
 ---
 
 Song of Solomon is pretty ridiculous, but it has some nuggets: "For love is strong as death, jealousy is fierce as the grave. Its flashes are flashes of fire, the very flame of the Lord. Many waters cannot quench love, neither can floods drown it."
