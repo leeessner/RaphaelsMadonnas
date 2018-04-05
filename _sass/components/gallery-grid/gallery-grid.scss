@@ -35,7 +35,8 @@
 }
 
 .flex-item img {
-  width: 100%;
+  height: 100%;
+  width: auto;
 }
 
 .wrap    {
@@ -43,17 +44,26 @@
   flex-wrap: wrap;
 }
 
+.img-frame-container {
+  height: 300px;
+}
+
 .gallery {
 
 li {
   a {
+    text-align: center;
+
     .year {
+      display: block;
       font-family: $font-family-sans;
       color: $Urbino-base;
       font-size: .6875rem;
-      margin: 0;
+      margin: 1rem 0 -.25rem 0;
+      letter-spacing: .125rem;
     }
     .Urbino, .Florence, .Rome {
+      display: block;
       font-family: $font-family-serif;
       color: $charcoal-base;
       font-size: $font-size-sm;

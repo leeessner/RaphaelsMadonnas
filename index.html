@@ -9,9 +9,11 @@ layout: default
       {% for post in site.posts %}
       <li class="flex-item">
           <a href="{{site.posts.last.url | prepend:site.baseurl}}">
-            <img src="{{site.baseurl}}/images/{{post.image_folder_frame}}/{{post.frame_image}}"/>
-            <p class="year"> {{ post.year }} </p>
-            <p class="{{ post.categories }}"> {{ post.title }} </p>
+            <div class="img-frame-container">
+              <img src="{{site.baseurl}}/images/{{post.image_folder_frame}}/{{post.frame_image}}"/>
+            </div>
+            <span class="year"> {{ post.year }} </span>
+            <span class="{{ post.categories }}"> {{ post.title }} </span>
           </a>
       </li>
       {% endfor %}
