@@ -17,8 +17,8 @@ City: Urbino
 Country: Italy
 image_folder: img_primary
 original_image: 1498_Madonna-di-Casa-Santi.jpg
-image_folder_gallery: img_gallery
-gallery_image: gallery_1498_Madonna-di-Casa-Santi.jpg
+image_folder_frame: img_frame
+frame_image: 1498_Madonna-di-Casa-Santi.png
 images:
   - url: gallery_1498_Madonna-di-Casa-Santi.jpg
     alt: this is the alt text

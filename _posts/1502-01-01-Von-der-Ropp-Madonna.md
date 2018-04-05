@@ -18,8 +18,8 @@ City: Berlin
 Country: Germany
 image_folder: img_primary
 original_image: 1502_Von-der-Ropp-Madonna.jpg
-image_folder_gallery: img_gallery
-gallery_image: gallery_1502_Von-der-Ropp-Madonna.jpg
+image_folder_frame: img_frame
+frame_image: 1502_Von-der-Ropp-Madonna.png
 images:
   - url: ../img_gallery/gallery_1502_Von-der-Ropp-Madonna.jpg
     alt: this is the alt text

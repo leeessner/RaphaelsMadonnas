@@ -44,35 +44,41 @@
 }
 
 .gallery {
+
+li {
   a {
-    li {
-      .year {
-        font-family: $font-family-sans;
+    .year {
+      font-family: $font-family-sans;
+      color: $Urbino-base;
+      font-size: .6875rem;
+      margin: 0;
+    }
+    .Urbino, .Florence, .Rome {
+      font-family: $font-family-serif;
+      color: $charcoal-base;
+      font-size: $font-size-sm;
+      margin: 0;
+      transition: color .5s;
+    }
+
+    img {
+      filter: drop-shadow(0 10px 3px rgba(0,0,0,.6));
+      transition: filter .25s;
+      }
+
+    &:hover {
+      .Urbino {
         color: $Urbino-base;
-        font-size: .6875rem;
-        margin: 0;
       }
-      .Urbino, .Florence, .Rome {
-        font-family: $font-family-serif;
-        color: $charcoal-base;
-        font-size: $font-size-sm;
-        margin: 0;
-        transition: color .5s;
+      .Florence {
+        color: $Florence-base;
       }
-        .Urbino:hover {
-          color: $Urbino-base;
-        }
-        .Florence:hover {
-          color: $Florence-base;
-        }
-        .Rome:hover {
-          color: $Rome-base;
-        }
+      .Rome {
+        color: $Rome-base;
+      }
       img {
-        transition: box-shadow .5s;
-      }
-      img:hover {
-        box-shadow: 0 10px 10px -5px rgba(0,0,0,.8);
+        filter: drop-shadow(0 12px 4px rgba(0,0,0,.7));
+        }
       }
     }
   }
