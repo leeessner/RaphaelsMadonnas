@@ -17,8 +17,8 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    {% if page.original_image %}
-    <img class="post-image" src="{{site.baseurl}}/images/{{page.image_folder}}/{{page.original_image}}" alt="">
+    {% if page.primary_image %}
+    <img class="post-image" src="{{site.baseurl}}/images/{{page.image_folder}}/{{page.primary_image}}" alt="">
     {% endif %}
     <div class="comic">
       <div class="comic-strip">
@@ -47,7 +47,7 @@ layout: default
 
   <div class="share-image">
     <p class="post-share-title">Image URL</p>
-    <input class="post-share-url" id="imageURL" value="{{site.baseurl | prepend: site.url}}/images/{{page.image_folder}}/{{page.original_image}}">
+    <input class="post-share-url" id="imageURL" value="{{site.baseurl | prepend: site.url}}/images/{{page.image_folder}}/{{page.primary_image}}">
   </div>
 
 </div>
