@@ -2,10 +2,19 @@
   padding: 3rem 0;
 }
 
-.grid-container-urbino {
+.grid-container-Urbino {
   background: $Urbino-700;
 }
 
+.grid-container-Florence {
+  background: $Florence-700;
+}
+
+.grid-container-Rome {
+  background: $Rome-700;
+}
+
+//Flex
 .flex-container {
   padding: 0;
   list-style: none;
@@ -58,18 +67,18 @@ li {
   a {
     text-align: center;
 
-    .Urbino-year, .Florence-year, .Rome-year {
+    .year {
       display: block;
       font-family: $font-family-sans;
-      color: $Urbino-500;
       font-size: .6875rem;
       margin: 1rem 0 -.25rem 0;
       letter-spacing: .125rem;
+      transition: color .5s;
     }
-    .Urbino, .Florence, .Rome {
+
+    .title {
       display: block;
       font-family: $font-family-serif;
-      color: $Urbino-500;
       font-size: $font-size-sm;
       margin: 0;
       transition: color .5s;
@@ -81,17 +90,38 @@ li {
       }
 
     &:hover {
-      .Urbino, .Urbino-year {
-        color: $Urbino-300;
-      }
-      .Florence, .Florence-year {
-        color: $Florence-300;
-      }
-      .Rome, .Rome-year {
-        color: $Rome-300;
-      }
       img {
-        filter: drop-shadow(0 10px 5px rgba(0,0,0,.7));
+        filter: drop-shadow(0 10px 8px rgba(0,0,0,.7));
+        }
+      }
+    }
+  }
+  li.Urbino {
+    a {
+      color: $Urbino-500;
+      &:hover {
+        .title, .year {
+          color: $Urbino-300;
+        }
+      }
+    }
+  }
+  li.Florence {
+    a {
+      color: $Florence-500;
+      &:hover {
+        .title, .year {
+          color: $Florence-300;
+        }
+      }
+    }
+  }
+  li.Rome {
+    a {
+      color: $Rome-500;
+      &:hover {
+        .title, .year {
+          color: $Rome-300;
         }
       }
     }
