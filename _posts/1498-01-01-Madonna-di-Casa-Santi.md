@@ -21,7 +21,7 @@ Country: Italy
 image_folder: img_primary
 primary_image: 1498_Madonna-di-Casa-Santi.jpg
 image_folder_frame: img_frame
-frame_image: 1498_Madonna-di-Casa-Santi.png
+frame_image: 1498_Madonna-di-Casa-Santi-frame.png
 images:
   - url: gallery_1498_Madonna-di-Casa-Santi.jpg
     alt: this is the alt text

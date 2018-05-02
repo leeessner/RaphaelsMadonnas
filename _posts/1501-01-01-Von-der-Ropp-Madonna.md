@@ -21,7 +21,7 @@ Country: Germany
 image_folder: img_primary
 primary_image: 1501_Von-der-Ropp-Madonna.jpg
 image_folder_frame: img_frame
-frame_image: 1501_Von-der-Ropp-Madonna.png
+frame_image: 1501_Von-der-Ropp-Madonna-frame.png
 images:
   - url: ../img_gallery/gallery_1501_Von-der-Ropp-Madonna.jpg
     alt: this is the alt text
