@@ -4,7 +4,7 @@ layout: default
 
 
 <article class="post" >
-  <section class="grid-container">
+  <section class="grid-container grid-container-urbino">
     <ul class="flex-container wrap gallery">
       {% for post in site.posts %}
       <li class="flex-item">
@@ -12,7 +12,7 @@ layout: default
             <div class="img-frame-container">
               <img src="{{site.baseurl}}/images/{{post.image_folder_frame}}/{{post.frame_image}}"/>
             </div>
-            <span class="year"> {{ post.year }} </span>
+            <span class="{{ post.categories }}-year"> {{ post.year }} </span>
             <span class="{{ post.categories }}"> {{ post.title }} </span>
           </a>
       </li>

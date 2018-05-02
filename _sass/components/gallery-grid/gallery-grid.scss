@@ -1,5 +1,9 @@
 .grid-container {
-  margin-bottom: 10rem;
+  padding: 3rem 0;
+}
+
+.grid-container-urbino {
+  background: $Urbino-700;
 }
 
 .flex-container {
@@ -54,10 +58,10 @@ li {
   a {
     text-align: center;
 
-    .year {
+    .Urbino-year, .Florence-year, .Rome-year {
       display: block;
       font-family: $font-family-sans;
-      color: $Urbino-base;
+      color: $Urbino-500;
       font-size: .6875rem;
       margin: 1rem 0 -.25rem 0;
       letter-spacing: .125rem;
@@ -65,7 +69,7 @@ li {
     .Urbino, .Florence, .Rome {
       display: block;
       font-family: $font-family-serif;
-      color: $charcoal-base;
+      color: $Urbino-500;
       font-size: $font-size-sm;
       margin: 0;
       transition: color .5s;
@@ -77,14 +81,14 @@ li {
       }
 
     &:hover {
-      .Urbino {
-        color: $Urbino-base;
+      .Urbino, .Urbino-year {
+        color: $Urbino-300;
       }
-      .Florence {
-        color: $Florence-base;
+      .Florence, .Florence-year {
+        color: $Florence-300;
       }
-      .Rome {
-        color: $Rome-base;
+      .Rome, .Rome-year {
+        color: $Rome-300;
       }
       img {
         filter: drop-shadow(0 10px 5px rgba(0,0,0,.7));
