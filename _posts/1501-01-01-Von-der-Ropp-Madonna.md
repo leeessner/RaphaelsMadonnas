@@ -4,7 +4,6 @@ title:  "Von der Ropp Madonna"
 alternate_title: Madonna and Christ with St. Jerome and St. Francis
 date:   1501-01-01
 year: 1501
-number: 2
 categories: [Urbino]
 tags: [dirtbags]
 permalink: /Von-der-Ropp-Madonna
