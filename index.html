@@ -6,8 +6,9 @@ layout: default
 <article class="post" >
   <section class="grid-container grid-container-Urbino">
     <ul class="flex-container wrap gallery">
-      {% for post in site.posts %}
-      <li class="flex-item {{ post.categories }}">
+      {% assign posts = site.posts | where:'categories', 'Urbino' %}
+      {% for post in posts %}
+        <li class="flex-item {{ post.categories }}">
           <a href="{{site.posts.last.url | prepend:site.baseurl}}">
             <div class="img-frame-container">
               <img src="{{site.baseurl}}/images/{{post.image_folder_frame}}/{{post.frame_image}}"/>
@@ -15,7 +16,39 @@ layout: default
             <span class="year"> {{ post.year }} </span>
             <span class="title"> {{ post.title }} </span>
           </a>
-      </li>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section class="grid-container grid-container-Florence">
+    <ul class="flex-container wrap gallery">
+      {% assign posts = site.posts | where:'categories', 'Florence' %}
+      {% for post in posts %}
+        <li class="flex-item {{ post.categories }}">
+          <a href="{{site.posts.last.url | prepend:site.baseurl}}">
+            <div class="img-frame-container">
+              <img src="{{site.baseurl}}/images/{{post.image_folder_frame}}/{{post.frame_image}}"/>
+            </div>
+            <span class="year"> {{ post.year }} </span>
+            <span class="title"> {{ post.title }} </span>
+          </a>
+        </li>
+      {% endfor %}
+    </ul>
+  </section>
+  <section class="grid-container grid-container-Rome">
+    <ul class="flex-container wrap gallery">
+      {% assign posts = site.posts | where:'categories', 'Rome' %}
+      {% for post in posts %}
+        <li class="flex-item {{ post.categories }}">
+          <a href="{{site.posts.last.url | prepend:site.baseurl}}">
+            <div class="img-frame-container">
+              <img src="{{site.baseurl}}/images/{{post.image_folder_frame}}/{{post.frame_image}}"/>
+            </div>
+            <span class="year"> {{ post.year }} </span>
+            <span class="title"> {{ post.title }} </span>
+          </a>
+        </li>
       {% endfor %}
     </ul>
   </section>

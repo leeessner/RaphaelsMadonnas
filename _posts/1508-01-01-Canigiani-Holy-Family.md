@@ -4,8 +4,8 @@ title:  "Canigiani Holy Family"
 alternate_title:
 date:   1508-01-01
 year: 1508
-categories: [Florence]
-tags: [dirtbags]
+categories: Florence
+tags: 
 permalink: /Canigiani-Holy-Family
 
 medium: Oil on Wood

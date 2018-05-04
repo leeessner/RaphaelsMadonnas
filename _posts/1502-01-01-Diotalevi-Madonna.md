@@ -4,8 +4,8 @@ title:  "Diotalevi Madonna"
 alternate_title: Virgin Mary with the Child, who blesses the boy John
 date:   1502-01-01
 year: 1502
-categories: [Urbino]
-tags: [dirtbags]
+categories: Urbino
+tags: 
 permalink: /Diotalevi-Madonna
 
 medium: Oil on Wood

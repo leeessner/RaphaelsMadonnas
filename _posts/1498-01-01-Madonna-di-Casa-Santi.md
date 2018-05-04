@@ -4,8 +4,8 @@ title:  "Madonna di Casa Santi"
 alternate_title:
 date:   1498-01-01
 year: 1498
-categories: [Urbino]
-tags: [dirtbags]
+categories: Urbino
+tags: 
 permalink: /Madonna-di-Casa-Santi
 
 medium: Fresco
