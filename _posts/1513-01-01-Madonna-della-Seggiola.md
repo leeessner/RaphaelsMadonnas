@@ -2,8 +2,8 @@
 layout: post
 title:  "Madonna della Seggiola"
 alternate_title:
-date:   1514-01-01
-year: 1514
+date:   1513-01-01
+year: 1513
 categories: Rome
 tags:
 permalink: /Madonna-della-Seggiola
@@ -18,9 +18,9 @@ City: Florence
 Country: Italy
 
 image_folder: img_primary
-primary_image:
+primary_image: 1513_Madonna_Della_Seggiola.jpg
 image_folder_frame: img_frame
-frame_image:
+frame_image: 1513_Madonna-della-Seggiola-frame.png
 
 description_citation: Baldini, Nicoletta. Raphael. New York, Rizzoli International Publications, Inc., 2005. Print. p110
 description_author: Nicoletta Baldini
