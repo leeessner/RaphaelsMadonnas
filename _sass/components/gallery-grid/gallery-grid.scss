@@ -1,6 +1,41 @@
 .grid-container {
-  padding: 3rem 0;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  align-items: start;
+  padding: 2rem 0;
 }
+
+.grid-city {
+  position: sticky;
+  top: 0;
+  text-align: center;
+  padding-top: 3rem;
+
+  h2 {
+    font-size: $font-size-xxxlg;
+    text-transform: lowercase;
+    font-weight: normal;
+  }
+
+  p {
+    display: block;
+    font-size: $font-size-xsm;
+    font-family: $font-family-sans;
+    letter-spacing: .125rem;
+  }
+}
+  .grid-city-Urbino {
+    color: $Urbino-500;
+  }
+
+  .grid-city-Florence {
+    color: $Florence-500;
+  }
+
+  .grid-city-Rome {
+    color: $Rome-500;
+  }
+
 
 .grid-container-Urbino {
   background: $Urbino-900;
@@ -25,7 +60,7 @@
   display: -moz-flex;
   display: -webkit-flex;
   display: flex;
-  justify-content: center;
+  // justify-content: center;
   max-width: 96vw;
   margin: 0 auto;
 }

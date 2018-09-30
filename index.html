@@ -5,27 +5,45 @@ layout: default
 
 <article class="post" >
   <section class="grid-container grid-container-Urbino">
-    <ul class="flex-container wrap gallery">
-      {% assign posts = site.posts | where:'categories', 'Urbino' %}
-      {% for post in posts reversed %}
-        {% include gallery-home.html %}
-      {% endfor %}
-    </ul>
+    <div class="grid-city grid-city-Urbino">
+      <h2>Urbino</h2>
+      <p>1498-1504</p>
+    </div>
+    <div class="grid-art">
+      <ul class="flex-container wrap gallery">
+        {% assign posts = site.posts | where:'categories', 'Urbino' %}
+        {% for post in posts reversed %}
+          {% include gallery-home.html %}
+        {% endfor %}
+      </ul>
+    </div>
   </section>
   <section class="grid-container grid-container-Florence">
-    <ul class="flex-container wrap gallery">
-      {% assign posts = site.posts | where:'categories', 'Florence' %}
-      {% for post in posts reversed %}
-        {% include gallery-home.html %}
-      {% endfor %}
-    </ul>
+    <div class="grid-city grid-city-Florence">
+      <h2>Florence</h2>
+      <p>1504-1508</p>
+    </div>
+    <div class="grid-art">
+      <ul class="flex-container wrap gallery">
+        {% assign posts = site.posts | where:'categories', 'Florence' %}
+        {% for post in posts reversed %}
+          {% include gallery-home.html %}
+        {% endfor %}
+      </ul>
+    </div>
   </section>
   <section class="grid-container grid-container-Rome">
-    <ul class="flex-container wrap gallery">
-      {% assign posts = site.posts | where:'categories', 'Rome' %}
-      {% for post in posts reversed %}
-        {% include gallery-home.html %}
-      {% endfor %}
-    </ul>
+    <div class="grid-city grid-city-Rome">
+      <h2>Rome</h2>
+      <p>1508-1520</p>
+    </div>
+    <div class="grid-art">
+      <ul class="flex-container wrap gallery">
+        {% assign posts = site.posts | where:'categories', 'Rome' %}
+        {% for post in posts reversed %}
+          {% include gallery-home.html %}
+        {% endfor %}
+      </ul>
+    </div>
   </section>
 </article>
