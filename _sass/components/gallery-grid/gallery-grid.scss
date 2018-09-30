@@ -38,15 +38,15 @@
 
 
 .grid-container-Urbino {
-  background: $Urbino-900;
+  @extend %gradient-Urbino;
 }
 
 .grid-container-Florence {
-  background: $Florence-900;
+  @extend %gradient-Florence;
 }
 
 .grid-container-Rome {
-  background: $Rome-900;
+  @extend %gradient-Rome;
 }
 
 //Flex

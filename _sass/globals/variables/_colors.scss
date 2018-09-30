@@ -16,19 +16,34 @@ $Urbino-200: #CCD9C0;
 $Urbino-300: #9BAC8B;
 $Urbino-500: #5E6E4F;
 $Urbino-700: #38432E;
-$Urbino-900: #1E2517;
+$Urbino-900: #151A10;
+
+%gradient-Urbino {
+  background-color: $Urbino-900;
+  background-image: radial-gradient(at 60%, $Urbino-700, $Urbino-900 65%);
+}
 
 $Florence-200: #E29BAA;
 $Florence-300: #CE4460;
 $Florence-500: #A90023;
-$Flroence-700: #5B0013;
+$Florence-700: #5B0013;
 $Florence-900: #32000A;
+
+%gradient-Florence {
+  background-color: $Florence-900;
+  background-image: radial-gradient(at 60%, $Florence-700, $Florence-900 65%);
+}
 
 $Rome-200: #B5C3D3;
 $Rome-300: #477BB2;
 $Rome-500: #005BA3;
 $Rome-700: #00325A;
 $Rome-900: #000E24;
+
+%gradient-Rome {
+  background-color: $Rome-900;
+  background-image: radial-gradient(at 60%, $Rome-700, $Rome-900 65%);
+}
 
 $charcoal-200: #C4C4C4;
 $charcoal-300: #969696;
