@@ -5,7 +5,7 @@ alternate_title:
 date:   1508-01-01
 year: 1508
 categories: Florence
-tags: 
+tags:
 permalink: /Canigiani-Holy-Family
 
 medium: Oil on Wood
@@ -18,7 +18,7 @@ City: Munich
 Country: Germany
 
 image_folder: img_primary
-primary_image: 1508_Canigiani-Holy-Family.png
+primary_image: 1508_Canigiani-Holy-Family.jpg
 image_folder_frame: img_frame
 frame_image: 1508_Canigiani-Holy-Family-frame.png
 

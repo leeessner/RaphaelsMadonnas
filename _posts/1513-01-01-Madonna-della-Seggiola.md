@@ -18,7 +18,7 @@ City: Florence
 Country: Italy
 
 image_folder: img_primary
-primary_image: 1513_Madonna_Della_Seggiola.jpg
+primary_image: 1513_Madonna_Della_Seggiola.png
 image_folder_frame: img_frame
 frame_image: 1513_Madonna-della-Seggiola-frame.png
 

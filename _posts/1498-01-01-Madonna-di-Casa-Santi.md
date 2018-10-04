@@ -5,7 +5,7 @@ alternate_title:
 date:   1498-01-01
 year: 1498
 categories: Urbino
-tags: 
+tags:
 permalink: /Madonna-di-Casa-Santi
 
 medium: Fresco
@@ -21,9 +21,6 @@ image_folder: img_primary
 primary_image: 1498_Madonna-di-Casa-Santi.jpg
 image_folder_frame: img_frame
 frame_image: 1498_Madonna-di-Casa-Santi-frame.png
-images:
-  - url: gallery_1498_Madonna-di-Casa-Santi.jpg
-    alt: this is the alt text
 
 description_citation: Pierluigi De Vecchi, Raffaello , Rizzoli, Milan 1975.
 description_author: Pierluigi De Vecchi

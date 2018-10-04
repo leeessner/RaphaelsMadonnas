@@ -16,9 +16,13 @@ layout: default
     </p>
   </header>
 
+<div>
+  <img src="{{site.baseurl}}/images/{{page.image_folder}}/{{page.primary_image}}" />
+</div>
+
   <div class="post-content" itemprop="articleBody">
     {% if page.primary_image %}
-    <img class="post-image" src="{{site.baseurl}}/images/{{page.image_folder}}/{{page.primary_image}}" alt="">
+    <img class="post-image" src="{{site.baseurl}}/images/{{post.image_folder}}/{{post.primary_image}}" alt="">
     {% endif %}
     <div class="comic">
       <div class="comic-strip">
