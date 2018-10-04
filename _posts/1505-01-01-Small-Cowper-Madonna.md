@@ -18,7 +18,7 @@ City: Washingston, D.C.
 Country: United States of America
 
 image_folder: img_primary
-primary_image: 1505_Small-Cowper-Madonna.jpg
+primary_image: 1505_Small-Cowper-Madonna.png
 primary_image_link: https://www.nga.gov/collection/art-object-page.1196.html
 primary_image-citation: National Gallery of Art
 image_folder_frame: img_frame

@@ -1,3 +1,27 @@
+.post-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: start;
+}
+
+.painting-info {
+  text-align: center;
+}
+
+.primary-image {
+  position: sticky;
+  top: 0;
+
+  img {
+    width: 100%;
+    padding: 1rem;
+  }
+}
+
+
+
+
+//Karly code
 .post{
 
   h3{
