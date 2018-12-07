@@ -107,7 +107,7 @@ li {
     .year {
       display: block;
       font-family: $font-family-sans;
-      font-size: .6875rem;
+      font-size: $font-size-xxsm;
       margin: 1rem 0 -.25rem 0;
       letter-spacing: .125rem;
       transition: color .5s;
@@ -116,8 +116,9 @@ li {
     .title {
       display: block;
       font-family: $font-family-serif;
-      font-size: $font-size-reg;
+      font-size: $font-size-sm;
       margin: 0;
+      letter-spacing: .05rem;
       transition: color .5s;
     }
 

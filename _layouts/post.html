@@ -17,10 +17,22 @@ layout: default
   </header> -->
 
 <section class="post-grid">
-  <div class="painting-info">
-    <h1 class="post-title" itemprop="name headline">{{ page.title }}</h2>
-    <span class="year"> {{ page.year }} </span>
+  <div class="description">
+    <div class="painting-info">
+      <div class="painting-info-content">
+        <h1 class="post-title" itemprop="name headline">{{ page.title }}</h2>
+        <span class="year"> {{ page.year }} </span>
+      </div>
+    </div>
+    <div class="secondary-info">
+      <div class="secondary-info-container">
+        <div class="secondary-info-content">
+          {{ content }}
+        </div>
+      </div>
+    </div>
   </div>
+
   <div class="primary-image">
     <img src="{{site.baseurl}}/images/{{page.image_folder}}/{{page.primary_image}}" />
   </div>

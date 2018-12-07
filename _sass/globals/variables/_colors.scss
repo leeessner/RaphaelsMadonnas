@@ -12,15 +12,15 @@ $black: #000000;
 
 $white: #ffffff;
 
-$Urbino-200: #CCD9C0;
-$Urbino-300: #9BAC8B;
-$Urbino-500: #5E6E4F;
-$Urbino-700: #38432E;
-$Urbino-900: #151A10;
+$Urbino-200: #DCEAD0;
+$Urbino-300: #C4E5A5;
+$Urbino-500: #518022;
+$Urbino-700: #283E13;
+$Urbino-900: #0B1602;
 
 %gradient-Urbino {
   background-color: $Urbino-900;
-  background-image: radial-gradient(at 60%, $Urbino-700, $Urbino-900 65%);
+  background-image: radial-gradient(at 60%, $Urbino-500, $Urbino-900 65%);
 }
 
 $Florence-200: #E7A9B6;
@@ -31,18 +31,18 @@ $Florence-900: #32000A;
 
 %gradient-Florence {
   background-color: $Florence-900;
-  background-image: radial-gradient(at 60%, $Florence-700, $Florence-900 65%);
+  background-image: radial-gradient(at 60%, $Florence-500, $Florence-900 65%);
 }
 
-$Rome-200: #BFD1E5;
-$Rome-300: #63A0E1;
-$Rome-500: #005BA3;
-$Rome-700: #00325A;
-$Rome-900: #000E24;
+$Rome-200: #D1E2F7;
+$Rome-300: #6FA4E1;
+$Rome-500: #003A9E;
+$Rome-700: #01124E;
+$Rome-900: #000824;
 
 %gradient-Rome {
   background-color: $Rome-900;
-  background-image: radial-gradient(at 60%, $Rome-700, $Rome-900 65%);
+  background-image: radial-gradient(at 60%, $Rome-500, $Rome-900 65%);
 }
 
 $charcoal-200: #C4C4C4;
