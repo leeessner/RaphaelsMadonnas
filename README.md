@@ -39,7 +39,7 @@ When attempting to install Jekyll on High Sierra, you’ll receive an error that
 ### GitHub Pages
 [GitHub Pages] allows you to host directly from your GitHub repo. When using GitHub pages, site is https://leeessner.github.io/RaphaelsMadonnas/. When push to master, site automatically updates. A custom domain can be added.
 
-[logo]:https://github.com/karlyanelson/andalsomuchcattle/blob/gh-pages/logo.png
+[logo]:https://leeessner.github.io/RaphaelsMadonnas/images/img_frame/1502_Solly-Madonna-frame.png
 [flex-box]:https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 [this]:https://codinfox.github.io/dev/2015/03/06/use-tags-and-categories-in-your-jekyll-based-github-pages/
 [Jekyll]:http://jekyllrb.com
