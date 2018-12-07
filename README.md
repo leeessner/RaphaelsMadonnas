@@ -1,4 +1,4 @@
-![# And Also Much Cattle][logo]
+![# Raphaels Madonnas logo][logo]
 ### Jekyll Start Command
 bundle exec jekyll serve
 
