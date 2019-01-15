@@ -1,3 +1,33 @@
+.post-hero {
+  background-color: black;
+
+  #headline {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100px;
+  }
+
+  #hero-gradient {
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5));
+    z-index: 1;
+    height: 100px;
+  }
+
+  h1 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+  }
+}
+
 .post-grid {
   display: grid;
   grid-template-columns: 50% 50%;
