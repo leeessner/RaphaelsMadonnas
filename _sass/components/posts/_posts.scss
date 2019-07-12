@@ -6,13 +6,13 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 180px;
+    height: 260px;
   }
 
   #hero-gradient {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.95));
     z-index: 1;
-    height: 180px;
+    height: 260px;
   }
 
   .opacity {
@@ -20,9 +20,17 @@
     transition: opacity .5s;
   }
 
+  .post-title-year {
+    position: absolute;
+    bottom: .75rem;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
   h1 {
     position: absolute;
-    bottom: 0;
+    bottom: 1.75rem;
     left: 0;
     right: 0;
     text-align: center;
@@ -37,12 +45,6 @@
   display: grid;
   grid-template-columns: 50% 50%;
   align-items: start;
-  @extend %gradient-Urbino;
-}
-
-.painting-info {
-  display: flex;
-  height: 100vh;
 }
 
 .painting-info-content {
