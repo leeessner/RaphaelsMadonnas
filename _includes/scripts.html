@@ -1,13 +1,21 @@
 <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 <script>
 
-  var gradientHero = document.getElementById("hero-gradient");
+  var heroHeadline = document.getElementById("headline");
 
 window.onscroll = function() {headlineFunction()};
 
 function headlineFunction() {
     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        gradientHero.classList.add("opacity");
+        heroHeadline.classList.add("opacity");
     }
 }
+
+// window.onscroll = function() {headlineFunctionTitle()};
+//
+// function headlineFunctionTitle() {
+//     if (document.body.scrollTop < 10 || document.documentElement.scrollTop < 10) {
+//         heroHeadline.classList.remove("opacity");
+//     }
+// }
 </script>
