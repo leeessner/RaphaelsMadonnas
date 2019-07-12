@@ -6,13 +6,18 @@
     bottom: 0;
     left: 0;
     right: 0;
-    height: 100px;
+    height: 180px;
   }
 
   #hero-gradient {
-    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.5));
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.95));
     z-index: 1;
-    height: 100px;
+    height: 180px;
+  }
+
+  .opacity {
+    opacity: 0;
+    transition: opacity .5s;
   }
 
   h1 {
