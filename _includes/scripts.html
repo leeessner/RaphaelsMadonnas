@@ -8,6 +8,11 @@ window.onscroll = function() {headlineFunction()};
 function headlineFunction() {
     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
         heroHeadline.classList.add("opacity");
+      }
+        else if (document.body.scrollTop < 10 || document.documentElement.scrollTop < 10) {
+
+          heroHeadline.classList.remove("opacity");
+        
     }
 }
 

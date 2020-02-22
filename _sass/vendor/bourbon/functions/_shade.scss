@@ -1,11 +1,11 @@
 @charset "UTF-8";
 
-/// Mixes a color with black.
+/// Mixes a color with ink-base.
 ///
 /// @param {Color} $color
 ///
 /// @param {Number (Percentage)} $percent
-///   The amount of black to be mixed in.
+///   The amount of ink-base to be mixed in.
 ///
 /// @example scss - Usage
 ///   .element {

@@ -46,7 +46,7 @@
 
 .category-post-list-item{
   @include transition(all ease $default-transition-speed);
-  color: $dark-brown;
+  color: $ink-base;
   display: inline-block;
   padding-left: $space-xlg;
   &:hover,

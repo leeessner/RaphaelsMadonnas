@@ -1,5 +1,5 @@
 .post-hero {
-  background-color: black;
+  background-color: ink-base;
 
   #headline {
     position: absolute;
@@ -10,14 +10,14 @@
   }
 
   #hero-gradient {
-    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.95));
+    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.35));
     z-index: 1;
     height: 260px;
   }
 
   .opacity {
     opacity: 0;
-    transition: opacity .5s;
+    transition: opacity .25s;
   }
 
   .post-title-year {
@@ -83,7 +83,7 @@
 .post{
 
   h3{
-    color: $black;
+    color: $ink-base;
   }
 }
 
@@ -122,7 +122,7 @@
 .post-date,
 .post-permalink{
   text-align: center;
-  color: $dark-brown;
+  color: $ink-base;
 }
 
 .post-date{
@@ -231,7 +231,7 @@ input.post-share-url{
   }
 
   &:active{
-    @include button-style($dark-brown);
+    @include button-style($ink-base);
   }
 }
 
