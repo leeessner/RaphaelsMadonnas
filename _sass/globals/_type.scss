@@ -4,6 +4,12 @@ h3{
   font-family: $font-family-headlines;
 }
 
+h4,
+h5,
+h6{
+  font-family: $font-family-serif;
+}
+
 h1{
   font-size: $font-size-xxxlg;
 }
@@ -18,17 +24,60 @@ h3{
   line-height: 1.2;
 }
 
-h4,
-h5,
-h6{
-  font-family: $font-family-serif;
-}
 
 body {
   font-family: $font-family-serif;
   font-size: $font-size-reg;
   line-height: 1.8;
   color: $ink-base;
+}
+
+.display-1 {
+  font-family: $font-family-headlines;
+  font-size: $font-size-display-1;
+  line-height: $line-height-display-1;
+}
+
+.display-2 {
+  font-family: $font-family-headlines;
+  font-size: $font-size-display-2;
+  line-height: $line-height-display-2;
+}
+
+.title-1 {
+  font-family: $font-family-serif;
+  font-size: $font-size-title-1;
+  line-height: $line-height-title-1;
+}
+
+.title-2 {
+  font-family: $font-family-serif;
+  font-size: $font-size-title-2;
+  line-height: $line-height-title-2;
+}
+
+.subtitle-1 {
+  font-family: $font-family-sans;
+  font-size: $font-size-subtitle-1;
+  line-height: $line-height-subtitle-1;
+}
+
+.body-1 {
+  font-family: $font-family-serif;
+  font-size: $font-size-body-1;
+  line-height: $line-height-body-1;
+}
+
+.body-2 {
+  font-family: $font-family-serif;
+  font-size: $font-size-body-2;
+  line-height: $line-height-body-2;
+}
+
+.metadata {
+  font-family: $font-family-sans;
+  font-size: $font-size-metadata;
+  line-height: $line-height-metadata;
 }
 
 
