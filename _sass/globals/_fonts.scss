@@ -10,10 +10,25 @@
 @import url('https://fonts.googleapis.com/css?family=EB+Garamond');
 
 //Florence
+// @font-face {
+//     font-family: 'butlerregular';
+//     src: url('butler_regular-webfont.woff2') format('woff2'),
+//          url('butler_regular-webfont.woff') format('woff');
+//     font-weight: normal;
+//     font-style: normal;
+// }
 @font-face {
     font-family: 'butlerregular';
     src: url('butler_regular-webfont.woff2') format('woff2'),
          url('butler_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'raphaelregular';
+    src: url('raphael-regular-2-webfont.woff2') format('woff2'),
+         url('raphael-regular-2-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
