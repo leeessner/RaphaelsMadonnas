@@ -48,8 +48,12 @@
 
 .post-grid {
   display: grid;
-  grid-template-columns: 50% 50%;
+  grid-template-columns: 55% 45%;
   align-items: start;
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 4rem;
 }
 
 .painting-info-content {
@@ -77,12 +81,24 @@
 }
 
 .secondary-info-container {
-  padding-right: 50vw;
+  padding-right: 50%;
 }
 
+@media (min-width:1400px) {
+    .secondary-info-container {
+      padding-right: 0;
+      max-width: 700px;
+    }
+  }
+
 .secondary-info-content {
-  padding: 4rem 15%;
+  padding: 4rem 1rem 4rem 1rem;
 }
+
+
+
+
+
 
 //Karly code
 .post{
