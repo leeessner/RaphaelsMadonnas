@@ -1,5 +1,8 @@
 .post-hero {
   background-color: ink-base;
+  position: relative;
+  overflow: hidden;
+  height: 150vh;
 
   #headline {
     position: absolute;
@@ -12,37 +15,43 @@
 
   #hero-gradient {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.45));
+    position: absolute;
     z-index: 1;
     height: 260px;
+    bottom: 0;
+    left: 0;
+    right: 0;
   }
 
-  .opacity {
-    opacity: 0;
-    transition: opacity .25s;
-  }
+  // .opacity {
+  //   opacity: 0;
+  //   transition: opacity .25s;
+  // }
 
   .post-title-year {
     position: absolute;
-    bottom: .75rem;
     left: 0;
     right: 0;
     text-align: center;
+    bottom: -70%;
   }
 
-  h1 {
+  .text {
     position: absolute;
-    bottom: 1.75rem;
-    left: 0;
-    right: 0;
-    text-align: center;
-    padding-bottom: 0.75rem;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 2;
+    filter: drop-shadow(0 0 6px rgba(0,0,0,.60));
     letter-spacing: .1rem;
+    bottom: 180%;
   }
 
   img {
-    width: 100%;
-    object-fit: cover;
-    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1600px;
+    transform: translate(-50%, -50%);
   }
 }
 
