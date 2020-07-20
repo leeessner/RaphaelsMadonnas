@@ -63,13 +63,15 @@
   margin-left: auto;
   margin-right: auto;
   padding: 4rem;
+
+  @media (min-width:1400px) {
+      article {
+        padding: 4rem 1rem 4rem 1rem;
+        max-width: 700px;
+      }
+    }
 }
 
-.painting-info-content {
-  width: 50%;
-  margin: auto;
-  text-align: center;
-}
 
 .primary-image {
   position: sticky;
@@ -83,26 +85,10 @@
   }
 }
 
-.secondary-info {
-  background: $white;
-  width: 100vw;
-  padding-bottom: 1rem;
-}
 
-.secondary-info-container {
-  padding-right: 50%;
-}
 
-@media (min-width:1400px) {
-    .secondary-info-container {
-      padding-right: 0;
-      max-width: 700px;
-    }
-  }
 
-.secondary-info-content {
-  padding: 4rem 1rem 4rem 1rem;
-}
+
 
 
 
