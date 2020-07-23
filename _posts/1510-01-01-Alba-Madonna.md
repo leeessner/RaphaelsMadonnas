@@ -17,7 +17,8 @@ Location: National Gallery of Art
 City: Washingston, D.C.
 Country: United States of America
 
-image_folder: img_hero
+image_folder_hero: img_hero
+image_folder_primary: img_primary
 primary_image: 1510_Alba-Madonna.png
 hero_image: 1510_Alba-Madonna.jpg
 primary_image_link: https://www.nga.gov/collection/art-object-page.26.html
@@ -32,6 +33,8 @@ description_author: John Walker
 description_book-title: National Gallery of Art
 description_link: https://www.amazon.com/National-Gallery-Art-John-Walker/dp/0810981483/ref=sr_1_1?ie=UTF8&qid=1538367982&sr=8-1&keywords=0810981483
 description_ISBN: 0-8109-8148-3
+
+pulled_fact: The Alba Madonna was once the most expensive painting in the world.
 ---
 
 The Alba Madonna was painted about 1510, after Raphael had arrived in Rome and had fallen under the spell of Michelangelo. It is one of the supreme composi­tional achievements of Renaissance painting, for balance in a tondo, or round picture, required the utmost delicacy in adjustment. If the masses are not in equilib­rium, the picture will seem to roll like a wheel. In the Alba Madonna this complex problem is solved and the result is one of extraordinary stability. The compact group of figures in the foreground is also related to the surrounding landscape, with that feeling for perfect spatial composition which was Raphael's greatest achievement.

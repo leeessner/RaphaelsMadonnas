@@ -17,13 +17,17 @@ layout: default
   </header> -->
 
 <section class="post-hero">
-  <div class="text">
-    <h1 class="display-3"> {{page.title}}</h1>
+  <div class="painting-title">
+    <h1 class="display-2"> {{page.title}}</h1>
     <span class="post-title-year"> {{ page.year }} </span>
   </div>
   <div id="hero-gradient">
   </div>
-  <img src="{{site.baseurl}}/images/{{page.image_folder}}/{{page.hero_image}}"/>
+  <img src="{{site.baseurl}}/images/{{page.image_folder_hero}}/{{page.hero_image}}"/>
+</section>
+
+<section class="pulled-fact" style="background: ${{page.categories}}-700;">
+  <h2> {{ page.pulled_fact }}</h2>
 </section>
 
 <section class="post-grid">
@@ -36,7 +40,7 @@ layout: default
   </div>
 
   <div class="primary-image">
-    <img src="{{site.baseurl}}/images/{{page.image_folder}}/{{page.primary_image}}" />
+    <img src="{{site.baseurl}}/images/{{page.image_folder_primary}}/{{page.primary_image}}" />
   </div>
 </section>
 

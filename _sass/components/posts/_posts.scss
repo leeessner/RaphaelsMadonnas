@@ -5,10 +5,10 @@
   height: 200vh;
 
   #hero-gradient {
-    background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.45));
+    background-image: linear-gradient(rgba(0,0,0,0), #000824);
     position: absolute;
     z-index: 1;
-    height: 260px;
+    height: 50vh;
     bottom: 0;
     left: 0;
     right: 0;
@@ -24,18 +24,18 @@
     left: 0;
     right: 0;
     text-align: center;
-    bottom: -70%;
   }
 
-  .text {
+  .painting-title {
     position: absolute;
     left: 50%;
     transform: translate(-50%);
     z-index: 2;
     filter: drop-shadow(0 0 6px rgba(0,0,0,.60));
     letter-spacing: .1rem;
-    top: 90vh;
+    top: 86vh;
     color: $white;
+    text-align: center;
   }
 
   img {
@@ -47,6 +47,21 @@
   }
 }
 
+.pulled-fact {
+  background: $Rome-900;
+  padding: 3rem 20%;
+  text-align: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  color: $white;
+
+  h2 {
+    font-size: 46px;
+    line-height: 64px;
+  }
+}
+
 .post-grid {
   display: grid;
   grid-template-columns: 55% 45%;
@@ -55,6 +70,15 @@
   margin-left: auto;
   margin-right: auto;
   padding: 4rem;
+
+  article {
+    text-align: justify;
+    padding-right: 1rem;
+  }
+
+  .primary-image {
+    padding-left: 1rem;
+  }
 
   @media (min-width:1400px) {
       article {
