@@ -5,7 +5,7 @@
   height: 200vh;
 
   #hero-gradient {
-    background-image: linear-gradient(rgba(0,0,0,0), #000824);
+    background-image: linear-gradient(rgba(0,0,0,0), $Rome-900);
     position: absolute;
     z-index: 1;
     height: 50vh;
@@ -59,12 +59,13 @@
   h2 {
     font-size: 46px;
     line-height: 64px;
+    @extend %text-gradient-Rome;
   }
 }
 
 .post-grid {
   display: grid;
-  grid-template-columns: 55% 45%;
+  grid-template-columns: 60% 40%;
   align-items: start;
   max-width: $breakpoint-1400;
   margin-left: auto;
@@ -73,7 +74,7 @@
 
   article {
     text-align: justify;
-    padding-right: 1rem;
+    padding-right: 3rem;
   }
 
   .primary-image {
@@ -96,7 +97,6 @@
   img {
     max-width: 100%;
     max-height: 100vh;
-    padding: 1rem;
     margin: auto;
   }
 }

@@ -22,6 +22,17 @@ $Urbino-900: #0B1602;
   background-image: radial-gradient(at 60%, $Urbino-500, $Urbino-900 65%);
 }
 
+%post-hero-gradient-Urbino {
+  background-color: $Urbino-900;
+  background-image: linear-gradient(rgba(0,0,0,0), $Urbino-900);
+}
+
+%text-gradient-Urbino {
+  background: -webkit-linear-gradient($Urbino-300 0%, $Urbino-500 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
 $Florence-200: #E7A9B6;
 $Florence-300: #F25173;
 $Florence-500: #A90023;
@@ -33,6 +44,18 @@ $Florence-900: #32000A;
   background-image: radial-gradient(at 60%, $Florence-500, $Florence-900 65%);
 }
 
+%post-hero-gradient-Florence {
+  background-color: $Florence-900;
+  background-image: linear-gradient(rgba(0,0,0,0), $Florence-900);
+}
+
+%text-gradient-Florence {
+  background: -webkit-linear-gradient($Florence-300 0%, $Florence-500 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+
+
 $Rome-200: #D1E2F7;
 $Rome-300: #6FA4E1;
 $Rome-500: #003A9E;
@@ -42,6 +65,17 @@ $Rome-900: #000824;
 %gradient-Rome {
   background-color: $Rome-900;
   background-image: radial-gradient(at 60%, $Rome-500, $Rome-900 65%);
+}
+
+%post-hero-gradient-Rome {
+  background-color: $Rome-900;
+  background-image: linear-gradient(rgba(0,0,0,0), $Rome-900);
+}
+
+%text-gradient-Rome {
+  background: -webkit-linear-gradient($Rome-300 0%, $Rome-500 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
 
 $charcoal-200: #C4C4C4;
