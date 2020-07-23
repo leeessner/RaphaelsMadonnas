@@ -1,18 +1,21 @@
-<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-<!-- <script>
+<script src="https://code.jquery.com/jquery-1.10.2.js">
 
-  var heroHeadline = document.getElementById("headline");
+</script>
 
-window.onscroll = function() {headlineFunction()};
+<script>
 
-function headlineFunction() {
+  var heroTitle = document.getElementById("painting-title");
+
+window.onscroll = function() {titleFunction()};
+
+function titleFunction() {
     if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
-        heroHeadline.classList.add("opacity");
+        heroTitle.classList.add("opacity");
       }
         else if (document.body.scrollTop < 10 || document.documentElement.scrollTop < 10) {
 
-          heroHeadline.classList.remove("opacity");
+          heroTitle.classList.remove("opacity");
 
     }
 }
-</script> -->
+</script>
