@@ -2,16 +2,7 @@
   background-color: ink-base;
   position: relative;
   overflow: hidden;
-  height: 150vh;
-
-  #headline {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 260px;
-    color: white;
-  }
+  height: 200vh;
 
   #hero-gradient {
     background-image: linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.45));
@@ -43,7 +34,8 @@
     z-index: 2;
     filter: drop-shadow(0 0 6px rgba(0,0,0,.60));
     letter-spacing: .1rem;
-    bottom: 180%;
+    top: 90vh;
+    color: $white;
   }
 
   img {

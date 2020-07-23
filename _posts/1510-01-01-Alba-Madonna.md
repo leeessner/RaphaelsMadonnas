@@ -17,8 +17,9 @@ Location: National Gallery of Art
 City: Washingston, D.C.
 Country: United States of America
 
-image_folder: img_primary
+image_folder: img_hero
 primary_image: 1510_Alba-Madonna.png
+hero_image: 1510_Alba-Madonna.jpg
 primary_image_link: https://www.nga.gov/collection/art-object-page.26.html
 primary_image-citation: National Gallery of Art
 image_folder_frame: img_frame
