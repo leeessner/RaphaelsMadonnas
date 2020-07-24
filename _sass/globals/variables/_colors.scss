@@ -11,11 +11,12 @@ $ink-base: #2a2a2a;
 
 $white: #ffffff;
 
-$Urbino-200: #DCEAD0;
-$Urbino-300: #C4E5A5;
-$Urbino-500: #518022;
-$Urbino-700: #283E13;
-$Urbino-900: #0B1602;
+$Urbino-200: #D9E3D0;
+$Urbino-300: #CBDBBD;
+$Urbino-400: #A8B79A;
+$Urbino-500: #7B8A6C;
+$Urbino-700: #3D4338;
+$Urbino-900: #12160F;
 
 %gradient-Urbino {
   background-color: $Urbino-900;
@@ -27,16 +28,17 @@ $Urbino-900: #0B1602;
 }
 
 %text-gradient-Urbino {
-  background: -webkit-linear-gradient($Urbino-300 0%, $Urbino-500 100%);
+  background: -webkit-linear-gradient($Urbino-300 0%, $Urbino-400 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
 
-$Florence-200: #E7A9B6;
-$Florence-300: #F25173;
-$Florence-500: #A90023;
+$Florence-200: #F2BAC6;
+$Florence-300: #F56E8B;
+$Florence-400: #DD3154;
+$Florence-500: #9B0121;
 $Florence-700: #5B0013;
-$Florence-900: #290008;
+$Florence-900: #230007;
 
 %gradient-Florence {
   background-color: $Florence-900;
@@ -48,7 +50,7 @@ $Florence-900: #290008;
 }
 
 %text-gradient-Florence {
-  background: -webkit-linear-gradient($Florence-300 0%, $Florence-500 100%);
+  background: -webkit-linear-gradient($Florence-300 0%, $Florence-400 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
@@ -56,6 +58,7 @@ $Florence-900: #290008;
 
 $Rome-200: #D1E2F7;
 $Rome-300: #6FA4E1;
+$Rome-400: #356AC5;
 $Rome-500: #003A9E;
 $Rome-700: #01124E;
 $Rome-900: #000824;
@@ -70,7 +73,7 @@ $Rome-900: #000824;
 }
 
 %text-gradient-Rome {
-  background: -webkit-linear-gradient($Rome-300 0%, $Rome-500 100%);
+  background: -webkit-linear-gradient($Rome-300 0%, $Rome-400 100%);
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
 }
