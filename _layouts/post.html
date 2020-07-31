@@ -45,10 +45,19 @@ layout: default
   </section>
 
   <section class="time-period">
-    <h3>{{page.categories}}</h3>
-    {% if page.categories contains "Urbino" or page.categories contains "Florence" or page.categories contains "Rome"%}
+    {% if page.categories contains "Urbino" or page.categories contains "Florence" or page.categories contains "Rome" %}
   <img src="{{site.baseurl}}/images/img_self-portraits/{{page.categories}}/Raphael.jpg" />
 {% endif %}
+
+    <!-- {% case page.categories %}
+      {% when "Rome" %}
+
+      {% when "Florence" %}
+
+      {% when "Urbino" %}
+
+    {% endcase %} -->
+
   </section>
 </main>
 {% include post-nav.html %}
