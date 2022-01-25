@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
+
 <!-- {% include post-nav.html %} -->
 
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-
   <!-- <header class="post-header">
     <h2 class="post-title" itemprop="name headline">{{ page.title }}</h2>
     <p class="post-date">
@@ -15,41 +15,45 @@ layout: default
       </time>
     </p>
   </header> -->
-<main class="{{ page.categories }}">
-  <section class="post-hero">
-    <div id="painting-title">
-      <h1 class="display-2"> {{page.title}}</h1>
-      <span class="post-title-year"> {{ page.year }} </span>
-    </div>
-    <div class="hero-gradient">
-    </div>
-    <img src="{{site.baseurl}}/images/{{page.image_folder_hero}}/{{page.hero_image}}"/>
-  </section>
+  <main class="{{ page.categories }}">
+    <section class="post-hero">
+      <div id="painting-title">
+        <h1 class="display-2">{{page.title}}</h1>
+        <span class="post-title-year"> {{ page.year }} </span>
+      </div>
+      <div class="hero-gradient"></div>
+      <img
+        src="{{site.baseurl}}/images/{{page.image_folder_hero}}/{{page.hero_image}}"
+      />
+    </section>
 
-  <section class="pulled-fact" style="background: ${{page.categories}}-700;">
-    <h2> {{ page.pulled_fact }}</h2>
-  </section>
+    <section class="pulled-fact" style="background: ${{page.categories}}-700;">
+      <h2>{{ page.pulled_fact }}</h2>
+    </section>
 
-  <section class="post-grid">
-    <div class="description">
-      <article body-1>
-        <div class="body-1">
-          {{ content }}
-        </div>
-      </article>
-    </div>
+    <section class="post-grid">
+      <div class="description">
+        <article body-1>
+          <div class="body-1">{{ content }}</div>
+        </article>
+      </div>
 
-    <div class="primary-image">
-      <img src="{{site.baseurl}}/images/{{page.image_folder_primary}}/{{page.primary_image}}" />
-    </div>
-  </section>
+      <div class="primary-image">
+        <img
+          src="{{site.baseurl}}/images/{{page.image_folder_primary}}/{{page.primary_image}}"
+        />
+      </div>
+    </section>
 
-  <section class="time-period">
-    {% if page.categories contains "Urbino" or page.categories contains "Florence" or page.categories contains "Rome" %}
-  <img src="{{site.baseurl}}/images/img_self-portraits/{{page.categories}}/Raphael.jpg" />
-{% endif %}
+    <section class="time-period">
+      {% if page.categories contains "Urbino" or page.categories contains
+      "Florence" or page.categories contains "Rome" %}
+      <img
+        src="{{site.baseurl}}/images/img_self-portraits/{{page.categories}}/Raphael.jpg"
+      />
+      {% endif %}
 
-    <!-- {% case page.categories %}
+      <!-- {% case page.categories %}
       {% when "Rome" %}
 
       {% when "Florence" %}
@@ -57,7 +61,7 @@ layout: default
       {% when "Urbino" %}
 
     {% endcase %} -->
-
-  </section>
-</main>
-{% include post-nav.html %}
+    </section>
+  </main>
+  {% include post-nav.html %}
+</article>

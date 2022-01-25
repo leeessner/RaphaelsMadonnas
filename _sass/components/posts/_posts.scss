@@ -54,7 +54,7 @@
 
   .opacity {
     opacity: 0;
-    transition: opacity .25s;
+    transition: opacity 0.25s;
   }
 
   .post-title-year {
@@ -69,8 +69,8 @@
     left: 50%;
     transform: translate(-50%);
     z-index: 2;
-    filter: drop-shadow(0 0 6px rgba(0,0,0,.60));
-    letter-spacing: .1rem;
+    filter: drop-shadow(0 0 6px rgba(0, 0, 0, 0.6));
+    letter-spacing: 0.1rem;
     top: 86vh;
     color: $white;
     text-align: center;
@@ -102,7 +102,7 @@
 
 .post-grid {
   display: grid;
-  grid-template-columns: 60% 40%;
+  grid-template-columns: 50% 50%;
   align-items: start;
   max-width: $breakpoint-1400;
   margin-left: auto;
@@ -119,14 +119,13 @@
     padding-left: 1rem;
   }
 
-  @media (min-width:1400px) {
-      article {
-        padding: 0 1rem 4rem 1rem;
-        max-width: 700px;
-      }
+  @media (min-width: 1400px) {
+    article {
+      padding: 0 1rem 4rem 1rem;
+      max-width: 700px;
     }
+  }
 }
-
 
 .primary-image {
   position: sticky;
@@ -139,70 +138,58 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
 //Karly code
-.post{
-
-  h3{
+.post {
+  h3 {
     color: $ink-base;
   }
 }
 
-.post-nav{
+.post-nav {
   @extend %center;
   text-align: center;
 }
 
-
-.post-nav .btn{
+.post-nav .btn {
   @include button-style-shadow($light-gold, $white, true, $gold);
   margin: 2px;
-  letter-spacing: .1rem;
+  letter-spacing: 0.1rem;
 
   &:hover,
-  &:focus{
+  &:focus {
     @include button-style-shadow($gold, $white, true, $dark-gold);
   }
 
-  &:active{
+  &:active {
     @include button-style-shadow($gold, $white, false);
   }
 
   &[disabled],
-  &.disabled{
+  &.disabled {
     @include button-style-shadow($tan, $light-tan, false);
   }
 }
 
-.post-header{
+.post-header {
   margin-top: $space-sm;
   margin-bottom: $space-lg;
 }
 
 .post-title,
 .post-date,
-.post-permalink{
+.post-permalink {
   text-align: center;
   color: $ink-base;
 }
 
-.post-date{
+.post-date {
   font-style: italic;
   font-weight: $sans-regular;
   font-size: $font-size-xsm;
   margin-top: $space-sm;
 }
 
-.post-description{
+.post-description {
   @extend %center;
   max-width: $max-width-sm;
   margin-top: $space-lg;
@@ -214,7 +201,7 @@
   min-height: 4.5rem + $space-xxlg;
 }
 
-.post-description-text{
+.post-description-text {
   padding: $space-sm $space-md;
 
   //drop caps
@@ -236,25 +223,23 @@
   }
 }
 
-.post-tags{
+.post-tags {
   margin: $space-reg 0;
   padding: 0 $space-md;
 }
 
-
-.post-content{
+.post-content {
   position: relative;
 }
 
-.post-image{
+.post-image {
   position: absolute;
   height: 100%;
   opacity: 0;
 }
 
-
 //SHARING POSTS
-.post-share{
+.post-share {
   @include display(flex);
   @include flex-wrap(wrap);
   @include justify-content(center);
@@ -262,13 +247,13 @@
 }
 
 .share-permalink,
-.share-image{
+.share-image {
   @include flex(0 1 auto);
   text-align: center;
   margin: 0px $space-reg;
 }
 
-.post-share-title{
+.post-share-title {
   margin-bottom: 0px;
   font-size: $font-size-sm;
   font-weight: $sans-regular;
@@ -276,39 +261,38 @@
   color: $brown;
 }
 
-.post-share-url{
+.post-share-url {
   @include word-wrap(break-word);
   margin-top: $space-sm;
 }
 
-input.post-share-url{
+input.post-share-url {
   font-size: $font-size-xsm;
   padding: $space-xsm $space-sm;
 }
 
-.btn-copy{
+.btn-copy {
   @include button-style(transparent, $brown, true, $brown);
   padding: $space-xsm $space-sm;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   font-size: $font-size-xsm;
   font-family: $font-family-sans;
   font-weight: $sans-regular;
   text-transform: uppercase;
 
   &:hover,
-  &:focus{
+  &:focus {
     @include button-style($brown, antiquewhite);
   }
 
-  &:active{
+  &:active {
     @include button-style($ink-base);
   }
 }
 
-@media (max-width:#{$media-md}){
-  .post{
+@media (max-width:#{$media-md}) {
+  .post {
     padding: $space-reg $space-reg;
     margin: $space-reg 0px;
   }
-
 }
