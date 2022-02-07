@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Madonna di Casa Santi"
+title: "Madonna di Casa Santi"
 alternate_title:
-date:   1498-01-01
+date: 1498-01-01
 year: 1498
 categories: Urbino
 tags:
@@ -17,16 +17,24 @@ Location: Casa Santi
 City: Urbino
 Country: Italy
 
-image_folder: img_primary
+image_folder_hero: img_hero
+image_folder_primary: img_primary
 primary_image: 1498_Madonna-di-Casa-Santi.jpg
+hero_image: 1498_Madonna-di-Casa-Santi.jpg
+primary_image_link:
+primary_image-citation:
 image_folder_frame: img_frame
 frame_image: 1498_Madonna-di-Casa-Santi-frame.png
+frame_image_link:
+frame_image_citation:
 
 description_citation: Pierluigi De Vecchi, Raffaello , Rizzoli, Milan 1975.
 description_author: Pierluigi De Vecchi
 description_book-title: Raffaello
 description_link:
 description_ISBN:
+
+pulled_fact:
 ---
 
 The work, frescoed in the room in which it is believed that Raphael was born, until a few years ago was considered by the hand of Giovanni Santi, father of Raphael, and who depicted his wife and son (Cavalcaselle). This attribution, reiterated by Adolfo Venturi , was then abandoned in favor of the young Raffaello da Ragghianti, Longhi and Brizio. The similarity of the face of Mary with that of the girl in the Nativity of the Virgin in the predella of the Pala di Fano , the work of Perugino and the workshop, has also made Raffaello refer to that tablet.

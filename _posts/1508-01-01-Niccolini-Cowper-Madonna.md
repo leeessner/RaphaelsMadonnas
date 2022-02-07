@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Niccolini Cowper Madonna"
+title: "Niccolini Cowper Madonna"
 alternate_title:
-date:   1508-01-01
+date: 1508-01-01
 year: 1508
 categories: Rome
 tags:
@@ -17,8 +17,10 @@ Location: National Gallery of Art
 City: Washingston, D.C.
 Country: United States of America
 
-image_folder: img_primary
+image_folder_hero: img_hero
+image_folder_primary: img_primary
 primary_image: 1508_Niccolini-Cowper-Madonna.png
+hero_image: 1508_Niccolini-Cowper-Madonna.png
 primary_image_link: https://www.nga.gov/collection/art-object-page.27.html
 primary_image-citation: National Gallery of Art
 image_folder_frame: img_frame
@@ -31,6 +33,8 @@ description_author: John Walker
 description_book-title: National Gallery of Art
 description_link: https://www.amazon.com/National-Gallery-Art-John-Walker/dp/0810981483/ref=sr_1_1?ie=UTF8&qid=1538367982&sr=8-1&keywords=0810981483
 description_ISBN: 0-8109-8148-3
+
+pulled_fact:
 ---
 
 Signed and dated 1508—MDVIII.R.V.PIN (1508 Raphael of Urbino painted it)— The Niccolini-Cowper Madonna was probably one of the first pictures Raphael painted in Rome, at the end of his Florentine period. It was a work for which he must have made innumerable studies. There is a drawing for the head of the child in the Lille Museum, and another drawing of heads in the British Museum in London. The latter study bears a close relation to the painting repro­duced here, though it has also been connected with other works. A master of com­position, Raphael never achieved a more intricately and satisfactorily balanced de­sign of two figures.

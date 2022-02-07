@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Canigiani Holy Family"
+title: "Canigiani Holy Family"
 alternate_title:
-date:   1508-01-01
+date: 1508-01-01
 year: 1508
 categories: Florence
 tags:
@@ -17,16 +17,24 @@ Location: Alte Pinakothek
 City: Munich
 Country: Germany
 
-image_folder: img_primary
+image_folder_hero: img_hero
+image_folder_primary: img_primary
 primary_image: 1508_Canigiani-Holy-Family.jpg
+hero_image: 1508_Canigiani-Holy-Family.jpg
+primary_image_link:
+primary_image-citation:
 image_folder_frame: img_frame
 frame_image: 1508_Canigiani-Holy-Family-frame.png
+frame_image_link:
+frame_image_citation:
 
 description_citation: Baldini, Nicoletta. Raphael. New York, Rizzoli International Publications, Inc., 2005. Print. p110
 description_author: Nicoletta Baldini
 description_book-title: Raphael
 description_link: https://www.amazon.com/Raphael-Rizzoli-Classics-Nicoletta-Baldini/dp/0847826791
 description_ISBN: 0-8478-2679-1
+
+pulled_fact:
 ---
 
 It was from the heirs of Domenico Canigiani, who commissioned the work from Raphael, that this painting arrived in the Medici collections in 1588. In 1691 the daughter of Grand Duke Cosimo III de’ Medici, Anna Maria Luisa, took the painting with her when she married the Elector Palatine Johann Wilhelm. It was first destined for the gallery in Düsseldorf but was transferred to Munich in the early Ottocento.

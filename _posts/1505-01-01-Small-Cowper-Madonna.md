@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Small Cowper Madonna"
+title: "Small Cowper Madonna"
 alternate_title:
-date:   1505-01-01
+date: 1505-01-01
 year: 1505
 categories: Florence
 tags:
@@ -17,10 +17,12 @@ Location: National Gallery of Art
 City: Washingston, D.C.
 Country: United States of America
 
-image_folder: img_primary
+image_folder_hero: img_hero
+image_folder_primary: img_primary
 primary_image: 1505_Small-Cowper-Madonna.png
-primary_image_link: https://www.nga.gov/collection/art-object-page.1196.html
-primary_image-citation: National Gallery of Art
+hero_image: 1505_Small-Cowper-Madonna.png
+primary_image_link:
+primary_image-citation:
 image_folder_frame: img_frame
 frame_image: 1505_Small-Cowper-Madonna-frame.png
 frame_image_link:
@@ -31,6 +33,11 @@ description_author: John Walker
 description_book-title: National Gallery of Art
 description_link: https://www.amazon.com/National-Gallery-Art-John-Walker/dp/0810981483/ref=sr_1_1?ie=UTF8&qid=1538367982&sr=8-1&keywords=0810981483
 description_ISBN: 0-8109-8148-3
+
+pulled_fact:
+
+primary_image_link: https://www.nga.gov/collection/art-object-page.1196.html
+primary_image-citation: National Gallery of Art
 ---
 
 The Small Cowper Madonna was purchased in Italy in the eighteenth century by that remarkable Earl Cowper who is referred to frequently in Horace Walpole's correspondence with Sir Horace Mann, and the painting hung for over a century in Lord Cowper's country estate of Panshanger. A great connoisseur with an instinc­tive sympathy for the Renaissance, Lord Cowper was so drawn to Italy that he spent most of his life in Florence and became a prince of the Holy Roman Empire. Horace Walpole wrote scathingly of this eighteenth-century expatriate, "He has the awkward dignity of a temporary representative of nominal power."
