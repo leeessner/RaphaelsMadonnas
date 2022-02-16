@@ -33,15 +33,25 @@ layout: default
 
     <section class="post-grid">
       <div class="description">
+        <div class="primary-image">
+          <img
+            src="{{site.baseurl}}/images/{{page.image_folder_primary}}/{{page.primary_image}}"
+          />
+        </div>
         <article body-1>
           <div class="body-1">{{ content }}</div>
         </article>
       </div>
-
-      <div class="primary-image">
-        <img
-          src="{{site.baseurl}}/images/{{page.image_folder_primary}}/{{page.primary_image}}"
-        />
+      <div class="details">
+        <ul>
+          <li class="label">
+            {{page.width_cm}} cm x {{page.height_cm}} cm
+            <span class="metadata">{{page.width_in}} in x {{page.height_in}} in</span>
+          </li class="label">
+          <li class="label">{{page.Location}}</li>
+          <li class="label">{{page.City}} <span class="metadata">{{page.Country}}</span></li>
+          <li class="label">{{page.medium}}</li>
+        </ul>
       </div>
     </section>
 

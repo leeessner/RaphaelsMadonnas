@@ -4,31 +4,30 @@ body {
 
 h1,
 h2,
-h3{
+h3 {
   font-family: $font-family-headlines;
   font-weight: normal;
 }
 
 h4,
 h5,
-h6{
+h6 {
   font-family: $font-family-serif;
 }
 
-h1{
+h1 {
   font-size: $font-size-xxxlg;
 }
 
-h2{
+h2 {
   font-size: $font-size-xxlg;
   line-height: 1.2;
 }
 
-h3{
+h3 {
   font-size: $font-size-xxlg;
   line-height: 1.2;
 }
-
 
 body {
   font-family: $font-family-serif;
@@ -85,23 +84,28 @@ body {
   line-height: $line-height-body-2;
 }
 
+.label {
+  font-family: $font-family-sans;
+  font-size: $font-size-label;
+  line-height: $line-height-label;
+}
+
 .metadata {
   font-family: $font-family-sans;
   font-size: $font-size-metadata;
   line-height: $line-height-metadata;
 }
 
-
-@media (max-width: #{$media-md}){
-  h1{
+@media (max-width: #{$media-md}) {
+  h1 {
     font-size: $font-size-xxlg;
   }
 
-  h2{
+  h2 {
     font-size: $font-size-lg;
   }
 
-  h3{
+  h3 {
     font-size: $font-size-xlg;
   }
 
