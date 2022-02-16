@@ -109,15 +109,15 @@
   margin-left: auto;
   margin-right: auto;
   margin-top: 4rem;
-  padding: 4rem;
 
   article {
     text-align: justify;
+    padding-top: 1rem;
   }
 
   @media (min-width: 1400px) {
     article {
-      padding: 0 1rem 4rem 1rem;
+      padding: 1rem 1rem 4rem 1rem;
     }
   }
 }
@@ -125,6 +125,17 @@
 .description {
   grid-column-start: 3;
   grid-column-end: 10;
+
+  .citation {
+    font-family: $font-family-sans;
+    font-size: $font-size-xsm;
+    :hover {
+      text-decoration: underline;
+    }
+    a {
+      color: $Rome-500;
+    }
+  }
 }
 
 .details {
@@ -135,7 +146,7 @@
     padding-left: 0;
     li {
       list-style-type: none;
-      padding-bottom: 1rem;
+      padding-bottom: 1.25rem;
     }
     span {
       display: block;
