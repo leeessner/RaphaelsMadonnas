@@ -13,8 +13,8 @@ width_cm: 34
 height_cm: 29
 width_in: 11.4
 height_in: 13.4
-width_in_frame:
-height_in_frame:
+width_in_frame: 19
+height_in_frame: 25
 Location: Gemäldegalerie
 City: Berlin
 Country: Germany

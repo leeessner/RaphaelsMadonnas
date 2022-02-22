@@ -13,8 +13,8 @@ width_cm: 131
 height_cm: 107
 width_in: 42.1
 height_in: 51.6
-width_in_frame:
-height_in_frame:
+width_in_frame: 65.9
+height_in_frame: 75.3
 Location: Alte Pinakothek
 City: Munich
 Country: Germany
