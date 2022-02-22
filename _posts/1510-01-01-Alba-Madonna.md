@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Alba Madonna"
+title: "Alba Madonna"
 alternate_title:
-date:   1510-01-01
+date: 1510-01-01
 year: 1510
 categories: Rome
 tags:
@@ -13,6 +13,8 @@ width_cm: 94.5
 height_cm: 94.5
 width_in: 37.2
 height_in: 37.2
+width_in_frame: 55
+height_in_frame: 55
 Location: National Gallery of Art
 City: Washingston, D.C.
 Country: United States of America

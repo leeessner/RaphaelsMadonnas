@@ -13,6 +13,8 @@ width_cm: 57.5
 height_cm: 80.7
 width_in: 22.6
 height_in: 31.8
+width_in_frame:
+height_in_frame:
 Location: National Gallery of Art
 City: Washingston, D.C.
 Country: United States of America

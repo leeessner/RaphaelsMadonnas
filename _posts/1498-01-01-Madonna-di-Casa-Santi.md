@@ -13,6 +13,8 @@ width_cm: 67
 height_cm: 97
 width_in: 26.4
 height_in: 38.2
+width_in_frame: 26.4
+height_in_frame: 38.2
 Location: Casa Santi
 City: Urbino
 Country: Italy

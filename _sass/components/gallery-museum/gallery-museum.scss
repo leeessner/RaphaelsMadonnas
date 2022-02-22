@@ -1,0 +1,60 @@
+.gallery-museum {
+  background-color: #5d6051;
+  background-image: radial-gradient(at 60%, #38432e, #1e2517 80%);
+  height: auto;
+  width: auto;
+  position: relative;
+
+  .gallery-museum-paintings {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+  }
+
+  img {
+    filter: drop-shadow(0 12px 4px rgba(0, 0, 0, 0.65));
+    transition: filter 0.7s;
+  }
+
+  @media (max-width: 1200px) {
+    .gallery-museum-paintings {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  .painting-previous {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .painting-current {
+    align-self: center;
+    justify-self: center;
+  }
+
+  .painting-next {
+    align-self: center;
+    justify-self: center;
+    grid-column: 3;
+  }
+
+  @media (max-width: 1200px) {
+    .painting-previous,
+    .painting-next {
+      display: none;
+    }
+  }
+
+  ul {
+    margin: 0;
+    padding: 200px 0;
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a img:hover {
+    filter: drop-shadow(0 16px 12px rgba(0, 0, 0, 0.65));
+  }
+}

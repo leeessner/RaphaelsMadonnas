@@ -13,6 +13,8 @@ width_cm: 71
 height_cm: 71
 width_in: 28
 height_in: 28
+width_in_frame: 48.2
+height_in_frame: 55.8
 Location: Palazzo Pitti
 City: Florence
 Country: Italy

@@ -64,6 +64,25 @@ layout: default
       />
       {% endif %}
 
+      <section class="gallery-museum">
+          <ul class="gallery-museum-paintings">
+            <li class="painting-previous">
+              <a href= "{{page.previous.url}}">
+                <img alt="{{page.previous.title}}" src="{{site.baseurl}}/images/{{page.previous.image_folder_frame}}/{{page.previous.frame_image}}" style="height:calc({{page.previous.height_in_frame}}px * 8.94)"/>
+              </a> 
+            </li>
+            <li class="painting-current">
+              <a href= "{{page.url}}">
+                <img alt="{{page.title}}" src="{{site.baseurl}}/images/{{page.image_folder_frame}}/{{page.frame_image}}" style="height:calc({{page.height_in_frame}}px * 8.94)"/>
+               </a>
+            </li>
+            <li class="painting-next">
+              <a href= "{{page.next.url}}">
+                <img alt="{{page.next.title}}" src="{{site.baseurl}}/images/{{page.next.image_folder_frame}}/{{page.next.frame_image}}" style="height:calc({{page.next.height_in_frame}}px * 8.94)"/>
+               </a> 
+            </li>
+          </ul>
+      </section>
       <!-- {% case page.categories %}
       {% when "Rome" %}
 

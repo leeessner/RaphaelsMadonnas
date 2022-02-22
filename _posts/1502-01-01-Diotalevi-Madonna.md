@@ -13,6 +13,8 @@ width_cm: 69
 height_cm: 50
 width_in: 19.7
 height_in: 27.2
+width_in_frame:
+height_in_frame:
 Location: Bode Museum
 City: Berlin
 Country: Germany

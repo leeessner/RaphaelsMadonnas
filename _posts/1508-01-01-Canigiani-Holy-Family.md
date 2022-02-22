@@ -11,8 +11,10 @@ permalink: /Canigiani-Holy-Family
 medium: Oil on Wood
 width_cm: 131
 height_cm: 107
-width_in: 51.6
-height_in: 42.1
+width_in: 42.1
+height_in: 51.6
+width_in_frame:
+height_in_frame:
 Location: Alte Pinakothek
 City: Munich
 Country: Germany

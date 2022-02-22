@@ -9,10 +9,12 @@ tags:
 permalink: /Madonna-of-Loreto
 
 medium: Oil on Wood
-width_cm: 120
-height_cm: 90
-width_in: 47
-height_in: 35
+width_cm: 90
+height_cm: 120
+width_in: 35
+height_in: 47
+width_in_frame: 42.8
+height_in_frame: 61.9
 Location: Château de Chantilly
 City: Chantilly
 Country: France
