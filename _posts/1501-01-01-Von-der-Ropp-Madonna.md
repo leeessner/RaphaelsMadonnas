@@ -9,13 +9,13 @@ tags:
 permalink: /Von-der-Ropp-Madonna
 
 medium: Oil on Wood
-width_cm: 34
-height_cm: 29
+width_cm: 29
+height_cm: 34
 width_in: 11.4
 height_in: 13.4
 width_in_frame: 19
 height_in_frame: 25
-Location: Gemäldegalerie
+Location: Staatliche Museen
 City: Berlin
 Country: Germany
 

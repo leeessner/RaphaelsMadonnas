@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Madonna of Loreto"
-alternate_title:
+alternate_title: Madonna of the Veil, Madonna of Santa Maria del Popolo
 date: 1509-01-01
 year: 1509
 categories: Rome
@@ -11,8 +11,8 @@ permalink: /Madonna-of-Loreto
 medium: Oil on Wood
 width_cm: 90
 height_cm: 120
-width_in: 35
-height_in: 47
+width_in: 35.4
+height_in: 47.2
 width_in_frame: 46.6
 height_in_frame: 57.8
 Location: Château de Chantilly
@@ -24,7 +24,7 @@ image_folder_primary: img_primary
 primary_image: 1509_Madonna-of-Loreto.jpg
 hero_image: 1509_Madonna-of-Loreto.jpg
 primary_image_link:
-primary_image-citation: 
+primary_image-citation: Château de Chantilly
 image_folder_frame: img_frame
 frame_image: 1509_Madonna-of-Loreto-frame.png
 frame_image_link: https://artsandculture.google.com/asset/la-madone-de-lorette/PwHFGP5UEwfauA
@@ -40,7 +40,6 @@ pulled_fact:
 
 primary_image_link: https://artsandculture.google.com/asset/la-madone-de-lorette/PwHFGP5UEwfauA
 
-primary_image-citation: Château de Chantilly
 ---
 
 The Duke of Aumale acquired this painting with the collection of Salerno as a copy of a famous lost painting by Raphael painted for the church of Santa Maria del Popolo in Rome. It was only in 1979 that, thanks to the inventory number 133 painted on the lower left on the board, it was identified as the original (below, a witness shows the state of conservation before restoration, which had prevented recognize the hand of the master). The gravity of the Virgin, her attitude evoking Saint Veronica wiping the face of Christ, and the veil, symbol of the shroud, announce the Passion.

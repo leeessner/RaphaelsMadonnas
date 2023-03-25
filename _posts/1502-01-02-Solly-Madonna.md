@@ -2,7 +2,7 @@
 layout: post
 title: "Solly Madonna"
 alternate_title: Madonna and Child with a Book
-date: 1502-01-01
+date: 1502-01-02
 year: 1502
 categories: Urbino
 tags:

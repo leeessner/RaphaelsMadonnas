@@ -9,8 +9,8 @@ tags:
 permalink: /Diotalevi-Madonna
 
 medium: Oil on Wood
-width_cm: 69
-height_cm: 50
+width_cm: 50
+height_cm: 69
 width_in: 19.7
 height_in: 27.2
 width_in_frame: 29.1

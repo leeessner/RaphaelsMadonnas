@@ -2,7 +2,7 @@
 layout: post
 title: "Niccolini Cowper Madonna"
 alternate_title:
-date: 1508-01-01
+date: 1508-01-02
 year: 1508
 categories: Rome
 tags:
