@@ -2,7 +2,7 @@
 layout: post
 title: "Solly Madonna"
 alternate_title: Madonna and Child with a Book
-date: 1502-01-02
+date: 1502-01-01
 year: 1502
 categories: Urbino
 tags:
@@ -37,6 +37,7 @@ description_link:
 description_ISBN: 0-08478-2679-1
 
 pulled_fact:
+
 ---
 
 This painting was originally part of the collection of the English banker Edward Solly. Together with other paintings from the same collection it entered the imperial collections of the Prussian state in 1821.
